@@ -1,0 +1,3095 @@
+###  
+@prefix : <http://www.ontologyrepository.com/CommonCoreOntologies/> .
+@prefix cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix mro: <http://www.ontologyrepository.com/CommonCoreOntologies/ModalRelationOntology/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.ontologyrepository.com/CommonCoreOntologies/Domain/EnglishEnglishPhonemesGraphemes> .
+
+<http://www.ontologyrepository.com/CommonCoreOntologies/Domain/EnglishEnglishPhonemesGraphemes> rdf:type owl:Ontology ;
+                                                                                        owl:versionIRI <http://www.ontologyrepository.com/CommonCoreOntologies/Domain/2021-08-11/EnglishEnglishPhonemesGraphemes> ;
+                                                                                        owl:imports <http://www.ontologyrepository.com/CommonCoreOntologies/Domain/LinguisticsOntology> ;
+                                                                                        rdfs:label "English EnglishPhonemes and Graphemes"@en ;
+                                                                                        rdfs:comment "Instance level representation of 44 English language EnglishPhonemes and exemplar graphemes."@en ;
+                                                                                        owl:versionInfo "Depends on Linguistics Ontology v2021-08-11"@en .
+
+#################################################################
+#    Individuals
+#################################################################
+
+#http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1340
+cco:IPAEnglishPhonemeDesignator1_N1340 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_b_ICE ;
+                                mro:has_text_value "/b/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1351
+cco:IPAEnglishPhonemeDesignator1_N1351 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_d_ICE ;
+                                mro:has_text_value "/d/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1362
+cco:IPAEnglishPhonemeDesignator1_N1362 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_f_ICE ;
+                                mro:has_text_value "/f/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1373
+cco:IPAEnglishPhonemeDesignator1_N1373 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_g_ICE ;
+                                mro:has_text_value "/g/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1384
+cco:IPAEnglishPhonemeDesignator1_N1384 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_h_ICE ;
+                                mro:has_text_value "/h/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1395
+cco:IPAEnglishPhonemeDesignator1_N1395 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_j_ICE ;
+                                mro:has_text_value "/j/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1406
+cco:IPAEnglishPhonemeDesignator1_N1406 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_k_ICE ;
+                                mro:has_text_value "/k/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1417
+cco:IPAEnglishPhonemeDesignator1_N1417 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_l_ICE ;
+                                mro:has_text_value "/l/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1428
+cco:IPAEnglishPhonemeDesignator1_N1428 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_m_ICE ;
+                                mro:has_text_value "/m/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1439
+cco:IPAEnglishPhonemeDesignator1_N1439 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_n_ICE ;
+                                mro:has_text_value "/n/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1450
+cco:IPAEnglishPhonemeDesignator1_N1450 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_p_ICE ;
+                                mro:has_text_value "/p/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1461
+cco:IPAEnglishPhonemeDesignator1_N1461 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_r_ICE ;
+                                mro:has_text_value "/r/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1472
+cco:IPAEnglishPhonemeDesignator1_N1472 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_s_ICE ;
+                                mro:has_text_value "/s/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1483
+cco:IPAEnglishPhonemeDesignator1_N1483 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_t_ICE ;
+                                mro:has_text_value "/t/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1494
+cco:IPAEnglishPhonemeDesignator1_N1494 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_v_ICE ;
+                                mro:has_text_value "/v/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1505
+cco:IPAEnglishPhonemeDesignator1_N1505 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_w_ICE ;
+                                mro:has_text_value "/w/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1516
+cco:IPAEnglishPhonemeDesignator1_N1516 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_y_ICE ;
+                                mro:has_text_value "/y/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1527
+cco:IPAEnglishPhonemeDesignator1_N1527 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_z_ICE ;
+                                mro:has_text_value "/z/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1538
+cco:IPAEnglishPhonemeDesignator1_N1538 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_th_not-voiced_ICE ;
+                                mro:has_text_value "/th/(not voiced)" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1549
+cco:IPAEnglishPhonemeDesignator1_N1549 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_th_voiced_ICE ;
+                                mro:has_text_value "/th/(voiced)" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1560
+cco:IPAEnglishPhonemeDesignator1_N1560 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ng_ICE ;
+                                mro:has_text_value "/ng/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1571
+cco:IPAEnglishPhonemeDesignator1_N1571 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_sh_ICE ;
+                                mro:has_text_value "/sh/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1582
+cco:IPAEnglishPhonemeDesignator1_N1582 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ch_ICE ;
+                                mro:has_text_value "/ch/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1593
+cco:IPAEnglishPhonemeDesignator1_N1593 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_zh_ICE ;
+                                mro:has_text_value "/zh/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1604
+cco:IPAEnglishPhonemeDesignator1_N1604 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_wh_with-breath_ICE ;
+                                mro:has_text_value "/wh/(with breath)" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1615
+cco:IPAEnglishPhonemeDesignator1_N1615 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_a_ICE ;
+                                mro:has_text_value "/a/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1626
+cco:IPAEnglishPhonemeDesignator1_N1626 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_e_ICE ;
+                                mro:has_text_value "/e/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1637
+cco:IPAEnglishPhonemeDesignator1_N1637 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_i_ICE ;
+                                mro:has_text_value "/i/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1648
+cco:IPAEnglishPhonemeDesignator1_N1648 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_o_ICE ;
+                                mro:has_text_value "/o/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1659
+cco:IPAEnglishPhonemeDesignator1_N1659 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_u_ICE ;
+                                mro:has_text_value "/u/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1670
+cco:IPAEnglishPhonemeDesignator1_N1670 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ā_ICE ;
+                                mro:has_text_value "/ā/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1681
+cco:IPAEnglishPhonemeDesignator1_N1681 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ē_ICE ;
+                                mro:has_text_value "/ē/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1692
+cco:IPAEnglishPhonemeDesignator1_N1692 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ī_ICE ;
+                                mro:has_text_value "/ī/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1703
+cco:IPAEnglishPhonemeDesignator1_N1703 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ō_ICE ;
+                                mro:has_text_value "/ō/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1714
+cco:IPAEnglishPhonemeDesignator1_N1714 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ū_ICE ;
+                                mro:has_text_value "/ū/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1725
+cco:IPAEnglishPhonemeDesignator1_N1725 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_oo_ICE ;
+                                mro:has_text_value "/oo/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1736
+cco:IPAEnglishPhonemeDesignator1_N1736 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ōō_ICE ;
+                                mro:has_text_value "/ōō/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1747
+cco:IPAEnglishPhonemeDesignator1_N1747 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ow_ICE ;
+                                mro:has_text_value "/ow/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1758
+cco:IPAEnglishPhonemeDesignator1_N1758 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_oy_ICE ;
+                                mro:has_text_value "/oy/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1769
+cco:IPAEnglishPhonemeDesignator1_N1769 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ar_ICE ;
+                                mro:has_text_value "/a(r)/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1780
+cco:IPAEnglishPhonemeDesignator1_N1780 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ār_ICE ;
+                                mro:has_text_value "/ā(r)/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1791
+cco:IPAEnglishPhonemeDesignator1_N1791 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ir_ICE ;
+                                mro:has_text_value "/i(r)/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1802
+cco:IPAEnglishPhonemeDesignator1_N1802 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_or_ICE ;
+                                mro:has_text_value "/o(r)/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/IPAEnglishPhonemeDesignator1_N1813
+cco:IPAEnglishPhonemeDesignator1_N1813 rdf:type owl:NamedIndividual ,
+                                        cco:IPAEnglishPhonemeDesignator ;
+                                mro:designates cco:EnglishPhoneme_ur_ICE ;
+                                mro:has_text_value "/u(r)/" .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_a_Sound
+cco:Phone_a_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_a_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ar_Sound
+cco:Phone_ar_Sound rdf:type owl:NamedIndividual ,
+                                cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ar_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_b_Sound
+cco:Phone_b_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_b_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ch_Sound
+cco:Phone_ch_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ch_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_d_Sound
+cco:Phone_d_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_d_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_e_Sound
+cco:Phone_e_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_e_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_f_Sound
+cco:Phone_f_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_f_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_g_Sound
+cco:Phone_g_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_g_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_h_Sound
+cco:Phone_h_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_h_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_i_Sound
+cco:Phone_i_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_i_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ir_Sound
+cco:Phone_ir_Sound rdf:type owl:NamedIndividual ,
+                                cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ir_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_j_Sound
+cco:Phone_j_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_j_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_k_Sound
+cco:Phone_k_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_k_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_l_Sound
+cco:Phone_l_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_l_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_m_Sound
+cco:Phone_m_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_m_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_n_Sound
+cco:Phone_n_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_n_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ng_Sound
+cco:Phone_ng_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ng_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_o_Sound
+cco:Phone_o_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_o_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_oo_Sound
+cco:Phone_oo_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_oo_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_or_Sound
+cco:Phone_or_Sound rdf:type owl:NamedIndividual ,
+                                cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_or_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ow_Sound
+cco:Phone_ow_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ow_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_oy_Sound
+cco:Phone_oy_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_oy_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_p_Sound
+cco:Phone_p_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_p_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_r_Sound
+cco:Phone_r_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_r_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_s_Sound
+cco:Phone_s_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_s_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_sh_Sound
+cco:Phone_sh_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_sh_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_t_Sound
+cco:Phone_t_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_t_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_th_not-voiced_Sound
+cco:Phone_th_not-voiced_Sound rdf:type owl:NamedIndividual ,
+                                        cco:Phone ;
+                                mro:is_measured_by_nominal  cco:EnglishPhoneme_th_not-voiced_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_th_voiced_Sound
+cco:Phone_th_voiced_Sound rdf:type owl:NamedIndividual ,
+                                cco:Phone ;
+                        mro:is_measured_by_nominal  cco:EnglishPhoneme_th_voiced_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_u_Sound
+cco:Phone_u_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_u_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ur_Sound
+cco:Phone_ur_Sound rdf:type owl:NamedIndividual ,
+                                cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ur_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_v_Sound
+cco:Phone_v_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_v_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_w_Sound
+cco:Phone_w_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_w_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_wh_with-breath_Sound
+cco:Phone_wh_with-breath_Sound rdf:type owl:NamedIndividual ,
+                                        cco:Phone ;
+                                mro:is_measured_by_nominal  cco:EnglishPhoneme_wh_with-breath_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_y_Sound
+cco:Phone_y_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_y_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_z_Sound
+cco:Phone_z_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_z_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_zh_Sound
+cco:Phone_zh_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_zh_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ā_Sound
+cco:Phone_ā_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ā_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ār_Sound
+cco:Phone_ār_Sound rdf:type owl:NamedIndividual ,
+                                cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ār_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ē_Sound
+cco:Phone_ē_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ē_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ī_Sound
+cco:Phone_ī_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ī_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ō_Sound
+cco:Phone_ō_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ō_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ōō_Sound
+cco:Phone_ōō_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ōō_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/Phone_ū_Sound
+cco:Phone_ū_Sound rdf:type owl:NamedIndividual ,
+                        cco:Phone ;
+                mro:is_measured_by_nominal  cco:EnglishPhoneme_ū_ICE .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_a_ICE
+cco:EnglishPhoneme_a_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1615 ;
+                mro:represented_by  cco:EnglishPhoneme_a_Grapheme-a-IBA ,
+                                    cco:EnglishDiagraphPhoneme_o_Grapheme-au-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ar_ICE
+cco:EnglishPhoneme_ar_ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1769 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_ar_Grapheme-ar-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_b_ICE
+cco:EnglishPhoneme_b_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1340 ;
+                mro:represented_by  cco:EnglishPhoneme_b_Grapheme-b-IBA ,
+                                    cco:EnglishDiagraphPhoneme_b_Grapheme-bb-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ch_ICE
+cco:EnglishPhoneme_ch_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1582 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_ch_Grapheme-ch-IBA,
+                                    cco:EnglishTrigraphPhoneme_ch_Grapheme-tch-IBA .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_d_ICE
+cco:EnglishPhoneme_d_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1351 ;
+                mro:represented_by  cco:EnglishPhoneme_d_Grapheme-d-IBA ,
+                                    cco:EnglishDiagraphPhoneme_d_Grapheme-dd-IBA ,
+                                    cco:EnglishDiagraphPhoneme_d_Grapheme-ed-IBA.
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_e_ICE
+cco:EnglishPhoneme_e_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1626 ;
+                mro:represented_by  cco:EnglishPhoneme_e_Grapheme-e-IBA ,
+                                    cco:EnglishDiagraphPhoneme_e_Grapheme-ea-IBA .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_f_ICE
+cco:EnglishPhoneme_f_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1362 ;
+                mro:represented_by  cco:EnglishPhoneme_f_Grapheme-f-IBA ,
+                                    cco:EnglishDiagraphPhoneme_f_Grapheme-ph-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_g_ICE
+cco:EnglishPhoneme_g_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1373 ;
+                mro:represented_by  cco:EnglishPhoneme_g_Grapheme-g-IBA ,
+                                    cco:EnglishDiagraphPhoneme_g_Grapheme-gg-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_h_ICE
+cco:EnglishPhoneme_h_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1384 ;
+                mro:represented_by  cco:EnglishPhoneme_h_Grapheme-h-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_i_ICE
+cco:EnglishPhoneme_i_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1637 ;
+                mro:represented_by  cco:EnglishPhoneme_i_Grapheme-i-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ir_ICE
+cco:EnglishPhoneme_ir_ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1791 ;
+                mro:represented_by  cco:EnglishTrigraphPhoneme_ir_Grapheme-eer-IBA ,
+                                    cco:EnglishTrigraphPhoneme_ir_Grapheme-ere-IBA,
+                                    cco:EnglishTrigraphPhoneme_ir_Grapheme-irr-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_j_ICE
+cco:EnglishPhoneme_j_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1395 ;
+                mro:represented_by  cco:EnglishTrigraphPhoneme_j_Grapheme-dge-IBA ,
+                                    cco:EnglishPhoneme_j_Grapheme-g-IBA ,
+                                    cco:EnglishDiagraphPhoneme_j_Grapheme-ge-IBA ,
+                                    cco:EnglishPhoneme_j_Grapheme-j-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_k_ICE
+cco:EnglishPhoneme_k_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1406 ;
+                mro:represented_by  cco:EnglishPhoneme_k_Grapheme-c-IBA ,
+                                    cco:EnglishDiagraphPhoneme_k_Grapheme-cc-IBA ,
+                                    cco:EnglishDiagraphPhoneme_k_Grapheme-ch-IBA ,
+                                    cco:EnglishDiagraphPhoneme_k_Grapheme-ck-IBA ,
+                                    cco:EnglishPhoneme_k_Grapheme-k-IBA ,
+                                    cco:EnglishTrigraphPhoneme_k_Grapheme-que-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_l_ICE
+cco:EnglishPhoneme_l_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1417 ;
+                mro:represented_by  cco:EnglishPhoneme_l_Grapheme-l-IBA ,
+                                    cco:EnglishDiagraphPhoneme_l_Grapheme-ll-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_m_ICE
+cco:EnglishPhoneme_m_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1428 ;
+                mro:represented_by  cco:EnglishPhoneme_m_Grapheme-m-IBA ,
+                                    cco:EnglishDiagraphPhoneme_m_Grapheme-mb-IBA ,
+                                    cco:EnglishDiagraphPhoneme_m_Grapheme-mm-IBA.
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_n_ICE
+cco:EnglishPhoneme_n_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1439 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_n_Grapheme-gn-IBA ,
+                                    cco:EnglishDiagraphPhoneme_n_Grapheme-kn-IBA ,
+                                    cco:EnglishPhoneme_n_Grapheme-n-IBA ,
+                                    cco:EnglishDiagraphPhoneme_n_Grapheme-nn-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ng_ICE
+cco:EnglishPhoneme_ng_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1560 ;
+                mro:represented_by  cco:EnglishPhoneme_ng_Grapheme-n-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ng_Grapheme-ng-IBA .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_o_ICE
+cco:EnglishPhoneme_o_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1648 ;
+                mro:represented_by  cco:EnglishPhoneme_o_Grapheme-a-IBA ,
+                                    cco:EnglishDiagraphPhoneme_o_Grapheme-au-IBA ,
+                                    cco:EnglishDiagraphPhoneme_o_Grapheme-aw-IBA ,
+                                    cco:EnglishPhoneme_o_Grapheme-o-IBA ,
+                                    cco:EnglishPhoneme_o_Grapheme-ough-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_oo_ICE
+cco:EnglishPhoneme_oo_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1725 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_oo_Grapheme-oo-IBA ,
+                                    cco:EnglishTrigraphPhoneme_oo_Grapheme-oul-IBA ,
+                                    cco:EnglishPhoneme_oo_Grapheme-u-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_or_ICE
+cco:EnglishPhoneme_or_ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1802 ;
+                mro:represented_by  cco:EnglishTrigraphPhoneme_or_Grapheme-oor-IBA ,
+                                    cco:EnglishDiagraphPhoneme_or_Grapheme-or-IBA ,
+                                    cco:EnglishTrigraphPhoneme_or_Grapheme-ore-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ow_ICE
+cco:EnglishPhoneme_ow_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1747 ;
+                mro:represented_by  cco:EnglishTrigraphPhoneme_ow_Grapheme-oow-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ow_Grapheme-ou-IBA ,
+                                    cco:EnglishPhoneme_ow_Grapheme-ou_e-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_oy_ICE
+cco:EnglishPhoneme_oy_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1758 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_oy_Grapheme-oi-IBA ,
+                                    cco:EnglishDiagraphPhoneme_oy_Grapheme-oy-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_p_ICE
+cco:EnglishPhoneme_p_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1450 ;
+                mro:represented_by  cco:EnglishPhoneme_p_Grapheme-p-IBA ,
+                                    cco:EnglishDiagraphPhoneme_p_Grapheme-pp-IBA.
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_r_ICE
+cco:EnglishPhoneme_r_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1461 ;
+                mro:represented_by  cco:EnglishPhoneme_r_Grapheme-r-IBA ,
+                                    cco:EnglishDiagraphPhoneme_r_Grapheme-rr-IBA ,
+                                    cco:EnglishDiagraphPhoneme_r_Grapheme-wr-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_s_ICE
+cco:EnglishPhoneme_s_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1472 ;
+                mro:represented_by  cco:EnglishPhoneme_s_Grapheme-c-IBA ,
+                                    cco:EnglishDiagraphPhoneme_s_Grapheme-ce-IBA ,
+                                    cco:EnglishPhoneme_s_Grapheme-s-IBA ,
+                                    cco:EnglishDiagraphPhoneme_s_Grapheme-sc-IBA ,
+                                    cco:EnglishDiagraphPhoneme_s_Grapheme-se-IBA ,
+                                    cco:EnglishDiagraphPhoneme_s_Grapheme-ss-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_sh_ICE
+cco:EnglishPhoneme_sh_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1571 ;
+                mro:represented_by  cco:nglishDiagraphPhoneme_sh_Grapheme-ch-IBA ,
+                                    cco:EnglishDiagraphPhoneme_sh_Grapheme-ci-IBA ,
+                                    cco:EnglishDiagraphPhoneme_sh_Grapheme-sh-IBA ,
+                                    cco:EnglishDiagraphPhoneme_sh_Grapheme-ss-IBA ,
+                                    cco:EnglishDiagraphPhoneme_sh_Grapheme-ti-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_t_ICE
+cco:EnglishPhoneme_t_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1483 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_t_Grapheme-ed-IBA ,
+                                    cco:EnglishPhoneme_t_Grapheme-t-IBA ,
+                                    cco:EnglishDiagraphPhoneme_t_Grapheme-tt-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_th_not-voiced_ICE
+cco:EnglishPhoneme_th_not-voiced_ICE rdf:type owl:NamedIndividual ,
+                                        cco:EnglishLanguageEnglishPhoneme ;
+                                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1538 ;
+                                mro:represented_by  cco:EnglishDiagraphPhoneme_th_not-voice_Grapheme-th-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_th_voiced_ICE
+cco:EnglishPhoneme_th_voiced_ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguageEnglishPhoneme ;
+                        mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1549 ;
+                        mro:represented_by  cco:EnglishDiagraphPhoneme_th_voiced_Grapheme-th-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_u_ICE
+cco:EnglishPhoneme_u_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1659 ;
+                mro:represented_by  cco:EnglishPhoneme_u_Grapheme-o-IBA ,
+                                    cco:EnglishPhoneme_u_Grapheme-u-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ur_ICE
+cco:EnglishPhoneme_ur_ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1813 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_ur_Grapheme-ar-IBA ,
+                                    cco:EnglishTrigraphPhoneme_ur_Grapheme-ear-IBA,
+                                    cco:EnglishDiagraphPhoneme_ur_Grapheme-er-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ur_Grapheme-ir-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ur_Grapheme-or-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ur_Grapheme-ur-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_v_ICE
+cco:EnglishPhoneme_v_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1494 ;
+                mro:represented_by  cco:EnglishPhoneme_v_Grapheme-v-IBA ,
+                                    cco:EnglishDiagraphPhoneme_v_Grapheme-ve-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_w_ICE
+cco:EnglishPhoneme_w_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1505 ;
+                mro:represented_by  cco:EnglishPhoneme_w_Grapheme-w-IBA .
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_wh_with-breath_ICE
+cco:EnglishPhoneme_wh_with-breath_ICE rdf:type owl:NamedIndividual ,
+                                        cco:EnglishLanguageEnglishPhoneme ;
+                                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1604 ;
+                                mro:represented_by  cco:EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh-IBA .
+                            
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_y_ICE
+cco:EnglishPhoneme_y_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1516 ;
+                mro:represented_by  cco:EnglishPhoneme_y_Grapheme-i-IBA ,
+                                    cco:EnglishPhoneme_y_Grapheme-y-IBA .
+
+
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_z_ICE
+cco:EnglishPhoneme_z_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1527 ;
+                mro:represented_by  cco:EnglishPhoneme_z_Grapheme-s-IBA ,
+                                        cco:EnglishDiagraphPhoneme_z_Grapheme-se-IBA ,
+                                        cco:EnglishPhoneme_z_Grapheme-x-IBA ,
+                                        cco:EnglishPhoneme_z_Grapheme-z-IBA ,
+                                        cco:EnglishDiagraphPhoneme_z_Grapheme-ze-IBA ,
+                                        cco:EnglishDiagraphPhoneme_z_Grapheme-zz-IBA .
+                                    
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_zh_ICE
+cco:EnglishPhoneme_zh_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1593 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_zh_Grapheme-ge-IBA ,
+                                    cco:EnglishPhoneme_zh_Grapheme-s-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ā_ICE
+cco:EnglishPhoneme_ā_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1670 ;
+                mro:represented_by  cco:EnglishPhoneme_ā_Grapheme-a-IBA ,
+                                        cco:EnglishPhoneme_ā_Grapheme-a_e-IBA ,
+                                        cco:EnglishDiagraphPhoneme_ā_Grapheme-ai-IBA ,
+                                        cco:EnglishDiagraphPhoneme_ā_Grapheme-ay-IBA ,
+                                        cco:EnglishDiagraphPhoneme_ā_Grapheme-ei-IBA ,
+                                        cco:EnglishDiagraphPhoneme_ā_Grapheme-ey-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ār__ICE
+cco:EnglishPhoneme_ār__ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1780 ;
+                mro:represented_by  cco:EnglishTrigraphPhoneme_ār_Grapheme-air-IBA ,
+                                    cco:EnglishTrigraphPhoneme_ār_Grapheme-are-IBA ,
+                                    cco:EnglishTrigraphPhoneme_ār_Grapheme-ear-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ē_ICE
+cco:EnglishPhoneme_ē_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1681 ;
+                mro:represented_by  cco:EnglishPhoneme_ē_Grapheme-e-IBA ,
+                                    cco:EnglishPhoneme_ē_Grapheme-e_e-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ē_Grapheme-ea-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ē_Grapheme-ee-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ē_Grapheme-ey-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ē_Grapheme-ie-IBA ,
+                                    cco:EnglishPhoneme_ē_Grapheme-y-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ī_ICE
+cco:EnglishPhoneme_ī_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1692 ;
+                mro:represented_by  cco:EnglishPhoneme_ī_Grapheme-i-IBA ,
+                                    cco:EnglishPhoneme_ī_Grapheme-i_e-IBA ,
+                                    cco:EnglishDiagraphPhoneme_ī_Grapheme-ie-IBA ,
+                                    cco:EnglishTrigraphPhoneme_ī_Grapheme-igh-IBA ,
+                                    cco:EnglishPhoneme_ī_Grapheme-y-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ō_ICE
+cco:EnglishPhoneme_ō_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1703 ;
+                mro:represented_by  cco:EnglishPhoneme_ō_Grapheme-o-IBA ,
+                                    cco:EnglishPhoneme_ō_Grapheme-o_e-IBA,
+                                    cco:EnglishDiagraphPhoneme_ō_Grapheme-oa-IBA,
+                                        cco:EnglishDiagraphPhoneme_ō_Grapheme-ou-IBA,
+                                        cco:EnglishDiagraphPhoneme_ō_Grapheme-ow-IBA.
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ōō_ICE
+cco:EnglishPhoneme_ōō_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1736 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_ōō_Grapheme-oo-IBA ,
+                                    cco:EnglishPhoneme_ōō_Grapheme-u-IBA ,
+                                    cco:EnglishPhoneme_ōō_Grapheme-u_e-IBA .
+
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ū_ICE
+cco:EnglishPhoneme_ū_ICE rdf:type owl:NamedIndividual ,
+                        cco:EnglishLanguageEnglishPhoneme ;
+                mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1714 ;
+                mro:represented_by  cco:EnglishDiagraphPhoneme_ū_Grapheme-ew-IBA ,
+                                    cco:EnglishPhoneme_ū_Grapheme-u-IBA ,
+                                    cco:EnglishPhoneme_ū_Grapheme-u_e-IBA .
+                                    
+
+cco:EnglishDiagraphGrapheme-ad-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-ad .
+
+cco:Glyph_EnglishDiagraphGrapheme-ad rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-ad-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_d_Grapheme-d;
+	mro:has_text_value "ad" .
+			
+cco:EnglishDiagraphPhoneme_ā_Grapheme-ai-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ai .
+
+cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ai rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ā_Grapheme-ai-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_i_Grapheme-i;
+	mro:has_text_value "ai" .
+			
+cco:EnglishDiagraphGrapheme-an-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-an .
+
+cco:Glyph_EnglishDiagraphGrapheme-an rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-an-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "an" .
+			
+cco:EnglishDiagraphGrapheme-ap-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-ap .
+
+cco:Glyph_EnglishDiagraphGrapheme-ap rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-ap-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "ap" .
+			
+cco:EnglishDiagraphPhoneme_ar_Grapheme-ar-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ar_Grapheme-ar .
+
+cco:Glyph_EnglishDiagraphPhoneme_ar_Grapheme-ar rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ar_Grapheme-ar-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "ar" .
+			
+cco:EnglishDiagraphPhoneme_ur_Grapheme-ar-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ar .
+
+cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ar rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ur_Grapheme-ar-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "ar" .
+			
+cco:EnglishDiagraphPhoneme_o_Grapheme-au-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_o_Grapheme-au .
+
+cco:Glyph_EnglishDiagraphPhoneme_o_Grapheme-au rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_o_Grapheme-au-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_u_Grapheme-u;
+	mro:has_text_value "au" .
+			
+cco:EnglishDiagraphPhoneme_a_Grapheme-au-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_a_Grapheme-au .
+
+cco:Glyph_EnglishDiagraphPhoneme_a_Grapheme-au rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_a_Grapheme-au-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_u_Grapheme-u;
+	mro:has_text_value "au" .
+			
+cco:EnglishDiagraphPhoneme_o_Grapheme-aw-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_o_Grapheme-aw .
+
+cco:Glyph_EnglishDiagraphPhoneme_o_Grapheme-aw rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_o_Grapheme-aw-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_w_Grapheme-w;
+	mro:has_text_value "aw" .
+			
+cco:EnglishDiagraphPhoneme_ā_Grapheme-ay-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ay .
+
+cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ay rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ā_Grapheme-ay-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_y_Grapheme-y;
+	mro:has_text_value "ay" .
+			
+cco:EnglishDiagraphPhoneme_b_Grapheme-bb-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_b_Grapheme-bb .
+
+cco:Glyph_EnglishDiagraphPhoneme_b_Grapheme-bb rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_b_Grapheme-bb-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_b_Grapheme-b;
+	mro:has_text_value "bb" .
+			
+cco:EnglishDiagraphGrapheme-bl-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-bl .
+
+cco:Glyph_EnglishDiagraphGrapheme-bl rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-bl-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_b_Grapheme-b, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "bl" .
+			
+cco:EnglishDiagraphGrapheme-br-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-br .
+
+cco:Glyph_EnglishDiagraphGrapheme-br rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-br-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_b_Grapheme-b, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "br" .
+			
+cco:EnglishDiagraphPhoneme_k_Grapheme-cc-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-cc .
+
+cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-cc rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_k_Grapheme-cc-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c;
+	mro:has_text_value "cc" .
+			
+cco:EnglishDiagraphPhoneme_s_Grapheme-ce-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-ce .
+
+cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-ce rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_s_Grapheme-ce-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-c, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ce" .
+			
+cco:EnglishDiagraphPhoneme_k_Grapheme-ch-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ch .
+
+cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ch rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_k_Grapheme-ch-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-c, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "ch" .
+			
+cco:EnglishDiagraphPhoneme_k_Grapheme-ch-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ch .
+
+cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ch rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_k_Grapheme-ch-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "ch" .
+			
+cco:EnglishDiagraphPhoneme_sh_Grapheme-ch-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ch .
+
+cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ch rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_sh_Grapheme-ch-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "ch" .
+			
+cco:EnglishDiagraphPhoneme_sh_Grapheme-ci-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ci .
+
+cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ci rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_sh_Grapheme-ci-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-c, cco:Glyph_EnglishPhoneme_i_Grapheme-i;
+	mro:has_text_value "ci" .
+			
+cco:EnglishDiagraphPhoneme_k_Grapheme-ck-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ck .
+
+cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ck rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_k_Grapheme-ck-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_k_Grapheme-k;
+	mro:has_text_value "ck" .
+			
+cco:EnglishDiagraphGrapheme-cl-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-cl .
+
+cco:Glyph_EnglishDiagraphGrapheme-cl rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-cl-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "cl" .
+			
+cco:EnglishDiagraphGrapheme-cr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-cr .
+
+cco:Glyph_EnglishDiagraphGrapheme-cr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-cr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "cr" .
+			
+cco:EnglishDiagraphPhoneme_d_Grapheme-dd-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_d_Grapheme-dd .
+
+cco:Glyph_EnglishDiagraphPhoneme_d_Grapheme-dd rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_d_Grapheme-dd-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_d_Grapheme-d;
+	mro:has_text_value "dd" .
+			
+cco:EnglishDiagraphPhoneme_ē_Grapheme-ea-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ea .
+
+cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ea rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ē_Grapheme-ea-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_a_Grapheme-a;
+	mro:has_text_value "ea" .
+			
+cco:EnglishDiagraphPhoneme_e_Grapheme-ea-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_e_Grapheme-ea .
+
+cco:Glyph_EnglishDiagraphPhoneme_e_Grapheme-ea rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_e_Grapheme-ea-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_a_Grapheme-a;
+	mro:has_text_value "ea" .
+			
+cco:EnglishDiagraphPhoneme_t_Grapheme-ed-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_t_Grapheme-ed .
+
+cco:Glyph_EnglishDiagraphPhoneme_t_Grapheme-ed rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_t_Grapheme-ed-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_d_Grapheme-d;
+	mro:has_text_value "ed" .
+			
+cco:EnglishDiagraphPhoneme_d_Grapheme-ed-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_d_Grapheme-ed .
+
+cco:Glyph_EnglishDiagraphPhoneme_d_Grapheme-ed rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_d_Grapheme-ed-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_d_Grapheme-d;
+	mro:has_text_value "ed" .
+			
+cco:EnglishDiagraphPhoneme_ē_Grapheme-ee-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ee .
+
+cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ee rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ē_Grapheme-ee-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ee" .
+			
+cco:EnglishDiagraphPhoneme_ā_Grapheme-ei-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ei .
+
+cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ei rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ā_Grapheme-ei-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_i_Grapheme-i;
+	mro:has_text_value "ei" .
+			
+cco:EnglishDiagraphPhoneme_ur_Grapheme-er-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-er .
+
+cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-er rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ur_Grapheme-er-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "er" .
+			
+cco:EnglishDiagraphPhoneme_ū_Grapheme-ew-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ū_Grapheme-ew .
+
+cco:Glyph_EnglishDiagraphPhoneme_ū_Grapheme-ew rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ū_Grapheme-ew-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_w_Grapheme-w;
+	mro:has_text_value "ew" .
+			
+cco:EnglishDiagraphPhoneme_ā_Grapheme-ey-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ey .
+
+cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ey rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ā_Grapheme-ey-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_y_Grapheme-y;
+	mro:has_text_value "ey" .
+			
+cco:EnglishDiagraphPhoneme_ē_Grapheme-ey-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ey .
+
+cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ey rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ē_Grapheme-ey-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_y_Grapheme-y;
+	mro:has_text_value "ey" .
+			
+cco:EnglishDiagraphGrapheme-fl-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-fl .
+
+cco:Glyph_EnglishDiagraphGrapheme-fl rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-fl-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_f_Grapheme-f, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "fl" .
+			
+cco:EnglishDiagraphGrapheme-fr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-fr .
+
+cco:Glyph_EnglishDiagraphGrapheme-fr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-fr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_f_Grapheme-f, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "fr" .
+			
+cco:EnglishDiagraphPhoneme_zh_Grapheme-ge-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_zh_Grapheme-ge .
+
+cco:Glyph_EnglishDiagraphPhoneme_zh_Grapheme-ge rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_zh_Grapheme-ge-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_j_Grapheme-g, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ge" .
+			
+cco:EnglishDiagraphPhoneme_j_Grapheme-ge-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_j_Grapheme-ge .
+
+cco:Glyph_EnglishDiagraphPhoneme_j_Grapheme-ge rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_j_Grapheme-ge-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_g_Grapheme-g, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ge" .
+			
+cco:EnglishDiagraphPhoneme_g_Grapheme-gg-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_g_Grapheme-gg .
+
+cco:Glyph_EnglishDiagraphPhoneme_g_Grapheme-gg rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_g_Grapheme-gg-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_g_Grapheme-g;
+	mro:has_text_value "gg" .
+			
+cco:EnglishDiagraphGrapheme-gl-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-gl .
+
+cco:Glyph_EnglishDiagraphGrapheme-gl rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-gl-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_j_Grapheme-g, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "gl" .
+			
+cco:EnglishDiagraphPhoneme_n_Grapheme-gn-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_n_Grapheme-gn .
+
+cco:Glyph_EnglishDiagraphPhoneme_n_Grapheme-gn rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_n_Grapheme-gn-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_g_Grapheme-g, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "gn" .
+			
+cco:EnglishDiagraphGrapheme-gr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-gr .
+
+cco:Glyph_EnglishDiagraphGrapheme-gr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-gr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_j_Grapheme-g, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "gr" .
+			
+cco:EnglishDiagraphPhoneme_ē_Grapheme-ie-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ie .
+
+cco:Glyph_EnglishDiagraphPhoneme_ē_Grapheme-ie rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ē_Grapheme-ie-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ie" .
+			
+cco:EnglishDiagraphPhoneme_ī_Grapheme-ie-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ī_Grapheme-ie .
+
+cco:Glyph_EnglishDiagraphPhoneme_ī_Grapheme-ie rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ī_Grapheme-ie-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ie" .
+			
+cco:EnglishDiagraphGrapheme-in-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-in .
+
+cco:Glyph_EnglishDiagraphGrapheme-in rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-in-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "in" .
+			
+cco:EnglishDiagraphGrapheme-ip-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-ip .
+
+cco:Glyph_EnglishDiagraphGrapheme-ip rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-ip-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "ip" .
+			
+cco:EnglishDiagraphPhoneme_ur_Grapheme-ir-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ir .
+
+cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ir rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ur_Grapheme-ir-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "ir" .
+			
+cco:EnglishDiagraphGrapheme-it-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-it .
+
+cco:Glyph_EnglishDiagraphGrapheme-it rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-it-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "it" .
+			
+cco:EnglishDiagraphPhoneme_n_Grapheme-kn-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_n_Grapheme-kn .
+
+cco:Glyph_EnglishDiagraphPhoneme_n_Grapheme-kn rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_n_Grapheme-kn-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-k, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "kn" .
+			
+cco:EnglishDiagraphPhoneme_l_Grapheme-ll-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_l_Grapheme-ll .
+
+cco:Glyph_EnglishDiagraphPhoneme_l_Grapheme-ll rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_l_Grapheme-ll-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "ll" .
+			
+cco:EnglishDiagraphPhoneme_m_Grapheme-mb-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_m_Grapheme-mb .
+
+cco:Glyph_EnglishDiagraphPhoneme_m_Grapheme-mb rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_m_Grapheme-mb-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_b_Grapheme-b;
+	mro:has_text_value "mb" .
+			
+cco:EnglishDiagraphPhoneme_m_Grapheme-mm-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_m_Grapheme-mm .
+
+cco:Glyph_EnglishDiagraphPhoneme_m_Grapheme-mm rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_m_Grapheme-mm-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_m_Grapheme-m;
+	mro:has_text_value "mm" .
+			
+cco:EnglishDiagraphPhoneme_ng_Grapheme-ng-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ng_Grapheme-ng .
+
+cco:Glyph_EnglishDiagraphPhoneme_ng_Grapheme-ng rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ng_Grapheme-ng-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_ng_Grapheme-n, cco:Glyph_EnglishPhoneme_ng_Grapheme-n;
+	mro:has_text_value "ng" .
+			
+cco:EnglishDiagraphPhoneme_n_Grapheme-nn-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_n_Grapheme-nn .
+
+cco:Glyph_EnglishDiagraphPhoneme_n_Grapheme-nn rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_n_Grapheme-nn-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "nn" .
+			
+cco:EnglishDiagraphPhoneme_ō_Grapheme-oa-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ō_Grapheme-oa .
+
+cco:Glyph_EnglishDiagraphPhoneme_ō_Grapheme-oa rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ō_Grapheme-oa-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_a_Grapheme-a;
+	mro:has_text_value "oa" .
+			
+cco:EnglishDiagraphGrapheme-og-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-og .
+
+cco:Glyph_EnglishDiagraphGrapheme-og rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-og-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_j_Grapheme-g;
+	mro:has_text_value "og" .
+			
+cco:EnglishDiagraphPhoneme_oy_Grapheme-oi-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_oy_Grapheme-oi .
+
+cco:Glyph_EnglishDiagraphPhoneme_oy_Grapheme-oi rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_oy_Grapheme-oi-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_i_Grapheme-i;
+	mro:has_text_value "oi" .
+			
+cco:EnglishDiagraphPhoneme_ōō_Grapheme-oo-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ōō_Grapheme-oo .
+
+cco:Glyph_EnglishDiagraphPhoneme_ōō_Grapheme-oo rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ōō_Grapheme-oo-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o;
+	mro:has_text_value "oo" .
+			
+cco:EnglishDiagraphPhoneme_oo_Grapheme-oo-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_oo_Grapheme-oo .
+
+cco:Glyph_EnglishDiagraphPhoneme_oo_Grapheme-oo rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_oo_Grapheme-oo-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o;
+	mro:has_text_value "oo" .
+			
+cco:EnglishDiagraphGrapheme-op-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-op .
+
+cco:Glyph_EnglishDiagraphGrapheme-op rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-op-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-o, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "op" .
+			
+cco:EnglishDiagraphPhoneme_ur_Grapheme-or-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-or .
+
+cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-or rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ur_Grapheme-or-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-o, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "or" .
+			
+cco:EnglishDiagraphPhoneme_or_Grapheme-or-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_or_Grapheme-or .
+
+cco:Glyph_EnglishDiagraphPhoneme_or_Grapheme-or rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_or_Grapheme-or-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "or" .
+			
+cco:EnglishDiagraphGrapheme-ot-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-ot .
+
+cco:Glyph_EnglishDiagraphGrapheme-ot rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-ot-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-o, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "ot" .
+			
+cco:EnglishDiagraphPhoneme_ō_Grapheme-ou-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ō_Grapheme-ou .
+
+cco:Glyph_EnglishDiagraphPhoneme_ō_Grapheme-ou rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ō_Grapheme-ou-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-o, cco:Glyph_EnglishPhoneme_Å_Grapheme-u;
+	mro:has_text_value "ou" .
+			
+cco:EnglishDiagraphPhoneme_ow_Grapheme-ou-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ow_Grapheme-ou .
+
+cco:Glyph_EnglishDiagraphPhoneme_ow_Grapheme-ou rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ow_Grapheme-ou-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_u_Grapheme-u;
+	mro:has_text_value "ou" .
+			
+cco:EnglishDiagraphPhoneme_ō_Grapheme-ow-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ō_Grapheme-ow .
+
+cco:Glyph_EnglishDiagraphPhoneme_ō_Grapheme-ow rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ō_Grapheme-ow-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_w_Grapheme-w;
+	mro:has_text_value "ow" .
+			
+cco:EnglishDiagraphGrapheme-ox-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-ox .
+
+cco:Glyph_EnglishDiagraphGrapheme-ox rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-ox-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_z_Grapheme-x;
+	mro:has_text_value "ox" .
+			
+cco:EnglishDiagraphPhoneme_oy_Grapheme-oy-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_oy_Grapheme-oy .
+
+cco:Glyph_EnglishDiagraphPhoneme_oy_Grapheme-oy rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_oy_Grapheme-oy-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o;
+	mro:has_text_value "oy" .
+			
+cco:EnglishDiagraphPhoneme_f_Grapheme-ph-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_f_Grapheme-ph .
+
+cco:Glyph_EnglishDiagraphPhoneme_f_Grapheme-ph rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_f_Grapheme-ph-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "ph" .
+			
+cco:EnglishDiagraphGrapheme-pl-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-pl .
+
+cco:Glyph_EnglishDiagraphGrapheme-pl rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-pl-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "pl" .
+			
+cco:EnglishDiagraphPhoneme_p_Grapheme-pp-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_p_Grapheme-pp .
+
+cco:Glyph_EnglishDiagraphPhoneme_p_Grapheme-pp rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_p_Grapheme-pp-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "pp" .
+			
+cco:EnglishDiagraphGrapheme-pr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-pr .
+
+cco:Glyph_EnglishDiagraphGrapheme-pr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-pr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "pr" .
+			
+cco:EnglishDiagraphGrapheme-qu-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-qu .
+
+cco:Glyph_EnglishDiagraphGrapheme-qu rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-qu-IBA ;
+	mro:has_text_value "qu" .
+			
+cco:EnglishDiagraphPhoneme_r_Grapheme-rr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_r_Grapheme-rr .
+
+cco:Glyph_EnglishDiagraphPhoneme_r_Grapheme-rr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_r_Grapheme-rr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "rr" .
+			
+cco:EnglishDiagraphPhoneme_s_Grapheme-sc-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-sc .
+
+cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-sc rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_s_Grapheme-sc-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_z_Grapheme-s, cco:Glyph_EnglishPhoneme_s_Grapheme-c;
+	mro:has_text_value "sc" .
+			
+cco:EnglishDiagraphPhoneme_z_Grapheme-se-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_z_Grapheme-se .
+
+cco:Glyph_EnglishDiagraphPhoneme_z_Grapheme-se rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_z_Grapheme-se-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_z_Grapheme-s;
+	mro:has_text_value "se" .
+			
+cco:EnglishDiagraphPhoneme_s_Grapheme-se-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-se .
+
+cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-se rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_s_Grapheme-se-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "se" .
+			
+cco:EnglishDiagraphPhoneme_sh_Grapheme-sh-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-sh .
+
+cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-sh rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_sh_Grapheme-sh-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "sh" .
+			
+cco:EnglishDiagraphGrapheme-sp-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-sp .
+
+cco:Glyph_EnglishDiagraphGrapheme-sp rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-sp-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "sp" .
+			
+cco:EnglishDiagraphPhoneme_s_Grapheme-ss-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-ss .
+
+cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-ss rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_s_Grapheme-ss-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s;
+	mro:has_text_value "ss" .
+			
+cco:EnglishDiagraphPhoneme_sh_Grapheme-ss-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ss .
+
+cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ss rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_sh_Grapheme-ss-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s;
+	mro:has_text_value "ss" .
+			
+cco:EnglishDiagraphGrapheme-st-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-st .
+
+cco:Glyph_EnglishDiagraphGrapheme-st rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-st-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "st" .
+			
+cco:EnglishDiagraphGrapheme-sw-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-sw .
+
+cco:Glyph_EnglishDiagraphGrapheme-sw rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-sw-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishPhoneme_w_Grapheme-w;
+	mro:has_text_value "sw" .
+			
+cco:EnglishDiagraphPhoneme_th_not-voice_Grapheme-th-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_th_not-voice_Grapheme-th .
+
+cco:Glyph_EnglishDiagraphPhoneme_th_not-voice_Grapheme-th rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_th_not-voice_Grapheme-th-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "th" .
+			
+cco:EnglishDiagraphPhoneme_th_voiced_Grapheme-th-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_th_voiced_Grapheme-th .
+
+cco:Glyph_EnglishDiagraphPhoneme_th_voiced_Grapheme-th rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_th_voiced_Grapheme-th-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "th" .
+			
+cco:EnglishDiagraphPhoneme_sh_Grapheme-ti-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ti .
+
+cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-ti rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_sh_Grapheme-ti-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_i_Grapheme-i;
+	mro:has_text_value "ti" .
+			
+cco:EnglishDiagraphGrapheme-tr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-tr .
+
+cco:Glyph_EnglishDiagraphGrapheme-tr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-tr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "tr" .
+			
+cco:EnglishDiagraphPhoneme_t_Grapheme-tt-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_t_Grapheme-tt .
+
+cco:Glyph_EnglishDiagraphPhoneme_t_Grapheme-tt rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_t_Grapheme-tt-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "tt" .
+			
+cco:EnglishDiagraphGrapheme-ue-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphGrapheme-ue .
+
+cco:Glyph_EnglishDiagraphGrapheme-ue rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphGrapheme-ue-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ue" .
+			
+cco:EnglishDiagraphPhoneme_ur_Grapheme-ur-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ur .
+
+cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ur rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_ur_Grapheme-ur-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "ur" .
+			
+cco:EnglishDiagraphPhoneme_v_Grapheme-ve-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_v_Grapheme-ve .
+
+cco:Glyph_EnglishDiagraphPhoneme_v_Grapheme-ve rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_v_Grapheme-ve-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_v_Grapheme-v, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ve" .
+			
+cco:EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh .
+
+cco:Glyph_EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_w_Grapheme-w, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "wh" .
+			
+cco:EnglishDiagraphPhoneme_r_Grapheme-wr-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_r_Grapheme-wr .
+
+cco:Glyph_EnglishDiagraphPhoneme_r_Grapheme-wr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_r_Grapheme-wr-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_w_Grapheme-w, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "wr" .
+			
+cco:EnglishDiagraphPhoneme_z_Grapheme-ze-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_z_Grapheme-ze .
+
+cco:Glyph_EnglishDiagraphPhoneme_z_Grapheme-ze rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_z_Grapheme-ze-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_z_Grapheme-z, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ze" .
+			
+cco:EnglishDiagraphPhoneme_z_Grapheme-zz-IBA rdf:type owl:NamedIndividual , cco:Diagraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishDiagraphPhoneme_z_Grapheme-zz .
+
+cco:Glyph_EnglishDiagraphPhoneme_z_Grapheme-zz rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishDiagraphPhoneme_z_Grapheme-zz-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_z_Grapheme-z;
+	mro:has_text_value "zz" .
+			
+cco:EnglishPhoneme_a_Grapheme-a-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_a_Grapheme-a .
+
+cco:Glyph_EnglishPhoneme_a_Grapheme-a rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_a_Grapheme-a-IBA ;
+	mro:has_text_value "a" .
+	
+cco:EnglishPhoneme_ā_Grapheme-a-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ā_Grapheme-a .
+
+cco:Glyph_EnglishPhoneme_ā_Grapheme-a rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ā_Grapheme-a-IBA ;
+	mro:has_text_value "a" .
+	
+cco:EnglishPhoneme_o_Grapheme-a-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_o_Grapheme-a .
+
+cco:Glyph_EnglishPhoneme_o_Grapheme-a rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_o_Grapheme-a-IBA ;
+	mro:has_text_value "a" .
+	
+cco:EnglishPhoneme_ā_Grapheme-a_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ā_Grapheme-a_e .
+
+cco:Glyph_EnglishPhoneme_ā_Grapheme-a_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ā_Grapheme-a_e-IBA ;
+	mro:has_text_value "a_e" .
+	
+cco:EnglishPhoneme_b_Grapheme-b-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_b_Grapheme-b .
+
+cco:Glyph_EnglishPhoneme_b_Grapheme-b rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_b_Grapheme-b-IBA ;
+	mro:has_text_value "b" .
+	
+cco:EnglishPhoneme_k_Grapheme-c-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_k_Grapheme-c .
+
+cco:Glyph_EnglishPhoneme_k_Grapheme-c rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_k_Grapheme-c-IBA ;
+	mro:has_text_value "c" .
+	
+cco:EnglishPhoneme_s_Grapheme-c-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_s_Grapheme-c .
+
+cco:Glyph_EnglishPhoneme_s_Grapheme-c rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_s_Grapheme-c-IBA ;
+	mro:has_text_value "c" .
+	
+cco:EnglishPhoneme_d_Grapheme-d-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_d_Grapheme-d .
+
+cco:Glyph_EnglishPhoneme_d_Grapheme-d rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_d_Grapheme-d-IBA ;
+	mro:has_text_value "d" .
+	
+cco:EnglishPhoneme_ē_Grapheme-e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ē_Grapheme-e .
+
+cco:Glyph_EnglishPhoneme_ē_Grapheme-e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ē_Grapheme-e-IBA ;
+	mro:has_text_value "e" .
+	
+cco:EnglishPhoneme_e_Grapheme-e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_e_Grapheme-e .
+
+cco:Glyph_EnglishPhoneme_e_Grapheme-e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_e_Grapheme-e-IBA ;
+	mro:has_text_value "e" .
+	
+cco:EnglishPhoneme_ē_Grapheme-e_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ē_Grapheme-e_e .
+
+cco:Glyph_EnglishPhoneme_ē_Grapheme-e_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ē_Grapheme-e_e-IBA ;
+	mro:has_text_value "e_e" .
+	
+cco:EnglishPhoneme_f_Grapheme-f-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_f_Grapheme-f .
+
+cco:Glyph_EnglishPhoneme_f_Grapheme-f rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_f_Grapheme-f-IBA ;
+	mro:has_text_value "f" .
+	
+cco:EnglishPhoneme_g_Grapheme-g-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_g_Grapheme-g .
+
+cco:Glyph_EnglishPhoneme_g_Grapheme-g rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_g_Grapheme-g-IBA ;
+	mro:has_text_value "g" .
+	
+cco:EnglishPhoneme_ng_Grapheme-n-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ng_Grapheme-n .
+
+cco:Glyph_EnglishPhoneme_ng_Grapheme-n rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ng_Grapheme-n-IBA ;
+	mro:has_text_value "g" .
+	
+cco:EnglishPhoneme_j_Grapheme-g-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_j_Grapheme-g .
+
+cco:Glyph_EnglishPhoneme_j_Grapheme-g rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_j_Grapheme-g-IBA ;
+	mro:has_text_value "g" .
+	
+cco:EnglishPhoneme_h_Grapheme-h-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_h_Grapheme-h .
+
+cco:Glyph_EnglishPhoneme_h_Grapheme-h rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_h_Grapheme-h-IBA ;
+	mro:has_text_value "h" .
+	
+cco:EnglishPhoneme_ī_Grapheme-i-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ī_Grapheme-i .
+
+cco:Glyph_EnglishPhoneme_ī_Grapheme-i rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ī_Grapheme-i-IBA ;
+	mro:has_text_value "i" .
+	
+cco:EnglishPhoneme_i_Grapheme-i-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_i_Grapheme-i .
+
+cco:Glyph_EnglishPhoneme_i_Grapheme-i rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_i_Grapheme-i-IBA ;
+	mro:has_text_value "i" .
+	
+cco:EnglishPhoneme_y_Grapheme-i-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_y_Grapheme-i .
+
+cco:Glyph_EnglishPhoneme_y_Grapheme-i rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_y_Grapheme-i-IBA ;
+	mro:has_text_value "i" .
+	
+cco:EnglishPhoneme_ī_Grapheme-i_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ī_Grapheme-i_e .
+
+cco:Glyph_EnglishPhoneme_ī_Grapheme-i_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ī_Grapheme-i_e-IBA ;
+	mro:has_text_value "i_e" .
+	
+cco:EnglishPhoneme_j_Grapheme-j-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_j_Grapheme-j .
+
+cco:Glyph_EnglishPhoneme_j_Grapheme-j rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_j_Grapheme-j-IBA ;
+	mro:has_text_value "j" .
+	
+cco:EnglishPhoneme_k_Grapheme-k-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_k_Grapheme-k .
+
+cco:Glyph_EnglishPhoneme_k_Grapheme-k rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_k_Grapheme-k-IBA ;
+	mro:has_text_value "k" .
+	
+cco:EnglishPhoneme_l_Grapheme-l-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_l_Grapheme-l .
+
+cco:Glyph_EnglishPhoneme_l_Grapheme-l rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_l_Grapheme-l-IBA ;
+	mro:has_text_value "l" .
+	
+cco:EnglishPhoneme_m_Grapheme-m-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_m_Grapheme-m .
+
+cco:Glyph_EnglishPhoneme_m_Grapheme-m rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_m_Grapheme-m-IBA ;
+	mro:has_text_value "m" .
+	
+cco:EnglishPhoneme_n_Grapheme-n-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_n_Grapheme-n .
+
+cco:Glyph_EnglishPhoneme_n_Grapheme-n rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_n_Grapheme-n-IBA ;
+	mro:has_text_value "n" .
+	
+cco:EnglishPhoneme_ng_Grapheme-n-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ng_Grapheme-n .
+
+cco:Glyph_EnglishPhoneme_ng_Grapheme-n rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ng_Grapheme-n-IBA ;
+	mro:has_text_value "n" .
+	
+cco:EnglishPhoneme_ō_Grapheme-o-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ō_Grapheme-o .
+
+cco:Glyph_EnglishPhoneme_ō_Grapheme-o rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ō_Grapheme-o-IBA ;
+	mro:has_text_value "o" .
+	
+cco:EnglishPhoneme_o_Grapheme-o-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_o_Grapheme-o .
+
+cco:Glyph_EnglishPhoneme_o_Grapheme-o rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_o_Grapheme-o-IBA ;
+	mro:has_text_value "o" .
+	
+cco:EnglishPhoneme_u_Grapheme-o-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_u_Grapheme-o .
+
+cco:Glyph_EnglishPhoneme_u_Grapheme-o rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_u_Grapheme-o-IBA ;
+	mro:has_text_value "o" .
+	
+cco:EnglishPhoneme_ō_Grapheme-o_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ō_Grapheme-o_e .
+
+cco:Glyph_EnglishPhoneme_ō_Grapheme-o_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ō_Grapheme-o_e-IBA ;
+	mro:has_text_value "o_e" .
+	
+cco:EnglishPhoneme_ow_Grapheme-ou_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ow_Grapheme-ou_e .
+
+cco:Glyph_EnglishPhoneme_ow_Grapheme-ou_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ow_Grapheme-ou_e-IBA ;
+	mro:has_text_value "ou_e" .
+	
+cco:EnglishPhoneme_o_Grapheme-ough-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_o_Grapheme-ough .
+
+cco:Glyph_EnglishPhoneme_o_Grapheme-ough rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_o_Grapheme-ough-IBA ;
+	mro:has_text_value "ough" .
+	
+cco:EnglishPhoneme_p_Grapheme-p-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_p_Grapheme-p .
+
+cco:Glyph_EnglishPhoneme_p_Grapheme-p rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_p_Grapheme-p-IBA ;
+	mro:has_text_value "p" .
+	
+cco:EnglishPhoneme_r_Grapheme-r-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_r_Grapheme-r .
+
+cco:Glyph_EnglishPhoneme_r_Grapheme-r rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_r_Grapheme-r-IBA ;
+	mro:has_text_value "r" .
+	
+cco:EnglishPhoneme_s_Grapheme-s-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_s_Grapheme-s .
+
+cco:Glyph_EnglishPhoneme_s_Grapheme-s rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_s_Grapheme-s-IBA ;
+	mro:has_text_value "s" .
+	
+cco:EnglishPhoneme_z_Grapheme-s-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_z_Grapheme-s .
+
+cco:Glyph_EnglishPhoneme_z_Grapheme-s rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_z_Grapheme-s-IBA ;
+	mro:has_text_value "s" .
+	
+cco:EnglishPhoneme_zh_Grapheme-s-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_zh_Grapheme-s .
+
+cco:Glyph_EnglishPhoneme_zh_Grapheme-s rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_zh_Grapheme-s-IBA ;
+	mro:has_text_value "s" .
+	
+cco:EnglishPhoneme_t_Grapheme-t-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_t_Grapheme-t .
+
+cco:Glyph_EnglishPhoneme_t_Grapheme-t rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_t_Grapheme-t-IBA ;
+	mro:has_text_value "t" .
+	
+cco:EnglishPhoneme_ōō_Grapheme-u-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ōō_Grapheme-u .
+
+cco:Glyph_EnglishPhoneme_ōō_Grapheme-u rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ōō_Grapheme-u-IBA ;
+	mro:has_text_value "u" .
+	
+cco:EnglishPhoneme_oo_Grapheme-u-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_oo_Grapheme-u .
+
+cco:Glyph_EnglishPhoneme_oo_Grapheme-u rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_oo_Grapheme-u-IBA ;
+	mro:has_text_value "u" .
+	
+cco:EnglishPhoneme_u_Grapheme-u-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_u_Grapheme-u .
+
+cco:Glyph_EnglishPhoneme_u_Grapheme-u rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_u_Grapheme-u-IBA ;
+	mro:has_text_value "u" .
+	
+cco:EnglishPhoneme_ū_Grapheme-u-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ū_Grapheme-u .
+
+cco:Glyph_EnglishPhoneme_ū_Grapheme-u rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ū_Grapheme-u-IBA ;
+	mro:has_text_value "u" .
+	
+cco:EnglishPhoneme_ō_Grapheme-u_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ō_Grapheme-u_e .
+
+cco:Glyph_EnglishPhoneme_ō_Grapheme-u_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ō_Grapheme-u_e-IBA ;
+	mro:has_text_value "u_e" .
+	
+cco:EnglishPhoneme_ōō_Grapheme-u_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ōō_Grapheme-u_e .
+
+cco:Glyph_EnglishPhoneme_ōō_Grapheme-u_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ōō_Grapheme-u_e-IBA ;
+	mro:has_text_value "u_e" .
+	
+cco:EnglishPhoneme_ū_Grapheme-u_e-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ū_Grapheme-u_e .
+
+cco:Glyph_EnglishPhoneme_ū_Grapheme-u_e rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ū_Grapheme-u_e-IBA ;
+	mro:has_text_value "u_e" .
+	
+cco:EnglishPhoneme_v_Grapheme-v-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_v_Grapheme-v .
+
+cco:Glyph_EnglishPhoneme_v_Grapheme-v rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_v_Grapheme-v-IBA ;
+	mro:has_text_value "v" .
+	
+cco:EnglishPhoneme_w_Grapheme-w-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_w_Grapheme-w .
+
+cco:Glyph_EnglishPhoneme_w_Grapheme-w rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_w_Grapheme-w-IBA ;
+	mro:has_text_value "w" .
+	
+cco:EnglishPhoneme_z_Grapheme-x-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_z_Grapheme-x .
+
+cco:Glyph_EnglishPhoneme_z_Grapheme-x rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_z_Grapheme-x-IBA ;
+	mro:has_text_value "x" .
+	
+cco:EnglishPhoneme_ē_Grapheme-y-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ē_Grapheme-y .
+
+cco:Glyph_EnglishPhoneme_ē_Grapheme-y rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ē_Grapheme-y-IBA ;
+	mro:has_text_value "y" .
+	
+cco:EnglishPhoneme_ī_Grapheme-y-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_ī_Grapheme-y .
+
+cco:Glyph_EnglishPhoneme_ī_Grapheme-y rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_ī_Grapheme-y-IBA ;
+	mro:has_text_value "y" .
+	
+cco:EnglishPhoneme_y_Grapheme-y-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_y_Grapheme-y .
+
+cco:Glyph_EnglishPhoneme_y_Grapheme-y rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_y_Grapheme-y-IBA ;
+	mro:has_text_value "y" .
+	
+cco:EnglishPhoneme_z_Grapheme-z-IBA rdf:type owl:NamedIndividual , cco:Grapheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishPhoneme_z_Grapheme-z .
+
+cco:Glyph_EnglishPhoneme_z_Grapheme-z rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishPhoneme_z_Grapheme-z-IBA ;
+	mro:has_text_value "z" .
+	
+cco:EnglishMorpheme_bit rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_bit .
+
+cco:Glyph_Morpheme_bit rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_bit ;
+	mro:has_part cco:Glyph_EnglishPhoneme_b_Grapheme-b, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "bit" .
+		
+cco:EnglishMorpheme_blade rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_blade .
+
+cco:Glyph_Morpheme_blade rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_blade ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-bl, cco:Glyph_EnglishTrigraphGrapheme-ade;
+	mro:has_text_value "blade" .
+		
+cco:EnglishMorpheme_bleak rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_bleak .
+
+cco:Glyph_Morpheme_bleak rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_bleak ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-bl, cco:Glyph_EnglishTrigraphGrapheme-eak;
+	mro:has_text_value "bleak" .
+		
+cco:EnglishMorpheme_blue rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_blue .
+
+cco:Glyph_Morpheme_blue rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_blue ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-bl, cco:Glyph_EnglishDiagraphGrapheme-ue;
+	mro:has_text_value "blue" .
+		
+cco:EnglishMorpheme_box rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_box .
+
+cco:Glyph_Morpheme_box rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_box ;
+	mro:has_part cco:Glyph_EnglishPhoneme_b_Grapheme-b, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_z_Grapheme-x;
+	mro:has_text_value "box" .
+		
+cco:EnglishMorpheme_brake rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_brake .
+
+cco:Glyph_Morpheme_brake rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_brake ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-br, cco:Glyph_EnglishTrigraphGrapheme-ake;
+	mro:has_text_value "brake" .
+		
+cco:EnglishMorpheme_bug rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_bug .
+
+cco:Glyph_Morpheme_bug rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_bug ;
+	mro:has_part cco:Glyph_EnglishPhoneme_b_Grapheme-b, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_g_Grapheme-g;
+	mro:has_text_value "bug" .
+		
+cco:EnglishMorpheme_can rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_can .
+
+cco:Glyph_Morpheme_can rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_can ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "can" .
+		
+cco:EnglishMorpheme_cap rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_cap .
+
+cco:Glyph_Morpheme_cap rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_cap ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "cap" .
+		
+cco:EnglishMorpheme_cat rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_cat .
+
+cco:Glyph_Morpheme_cat rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_cat ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "cat" .
+		
+cco:EnglishMorpheme_chide rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_chide .
+
+cco:Glyph_Morpheme_chide rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_chide ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ch_Grapheme-ch, cco:Glyph_EnglishTrigraphGrapheme-ide;
+	mro:has_text_value "chide" .
+		
+cco:EnglishMorpheme_clean rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_clean .
+
+cco:Glyph_Morpheme_clean rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_clean ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-cl, cco:Glyph_EnglishTrigraphGrapheme-ean;
+	mro:has_text_value "clean" .
+		
+cco:EnglishMorpheme_crane rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_crane .
+
+cco:Glyph_Morpheme_crane rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_crane ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-cr, cco:Glyph_EnglishTrigraphGrapheme-ane;
+	mro:has_text_value "crane" .
+		
+cco:EnglishMorpheme_cub rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_cub .
+
+cco:Glyph_Morpheme_cub rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_cub ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_b_Grapheme-b;
+	mro:has_text_value "cub" .
+		
+cco:EnglishMorpheme_cut rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_cut .
+
+cco:Glyph_Morpheme_cut rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_cut ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "cut" .
+		
+cco:EnglishMorpheme_cute rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_cute .
+
+cco:Glyph_Morpheme_cute rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_cute ;
+	mro:has_part cco:Glyph_EnglishPhoneme_k_Grapheme-c, cco:Glyph_EnglishTrigraphGrapheme-ute;
+	mro:has_text_value "cute" .
+		
+cco:EnglishMorpheme_den rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_den .
+
+cco:Glyph_Morpheme_den rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_den ;
+	mro:has_part cco:Glyph_EnglishPhoneme_d_Grapheme-d, cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "den" .
+		
+cco:EnglishMorpheme_dog rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_dog .
+
+cco:Glyph_Morpheme_dog rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_dog ;
+	mro:has_part cco:Glyph_EnglishPhoneme_d_Grapheme-d, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_g_Grapheme-g;
+	mro:has_text_value "dog" .
+		
+cco:EnglishMorpheme_fin rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_fin .
+
+cco:Glyph_Morpheme_fin rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_fin ;
+	mro:has_part cco:Glyph_EnglishPhoneme_f_Grapheme-f, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "fin" .
+		
+cco:EnglishMorpheme_flute rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_flute .
+
+cco:Glyph_Morpheme_flute rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_flute ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-fl, cco:Glyph_EnglishTrigraphGrapheme-ute;
+	mro:has_text_value "flute" .
+		
+cco:EnglishMorpheme_fox rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_fox .
+
+cco:Glyph_Morpheme_fox rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_fox ;
+	mro:has_part cco:Glyph_EnglishPhoneme_f_Grapheme-f, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_z_Grapheme-x;
+	mro:has_text_value "fox" .
+		
+cco:EnglishMorpheme_frame rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_frame .
+
+cco:Glyph_Morpheme_frame rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_frame ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-fr, cco:Glyph_EnglishTrigraphGrapheme-ame;
+	mro:has_text_value "frame" .
+		
+cco:EnglishMorpheme_fume rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_fume .
+
+cco:Glyph_Morpheme_fume rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_fume ;
+	mro:has_part cco:Glyph_EnglishPhoneme_f_Grapheme-f, cco:Glyph_EnglishTrigraphGrapheme-ume;
+	mro:has_text_value "fume" .
+		
+cco:EnglishMorpheme_get rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_get .
+
+cco:Glyph_Morpheme_get rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_get ;
+	mro:has_part cco:Glyph_EnglishPhoneme_g_Grapheme-g, cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "get" .
+		
+cco:EnglishMorpheme_globe rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_globe .
+
+cco:Glyph_Morpheme_globe rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_globe ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-gl, cco:Glyph_EnglishTrigraphGrapheme-obe;
+	mro:has_text_value "globe" .
+		
+cco:EnglishMorpheme_glue rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_glue .
+
+cco:Glyph_Morpheme_glue rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_glue ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-gl, cco:Glyph_EnglishDiagraphGrapheme-ue;
+	mro:has_text_value "glue" .
+		
+cco:EnglishMorpheme_grape rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_grape .
+
+cco:Glyph_Morpheme_grape rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_grape ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-gr, cco:Glyph_EnglishTrigraphGrapheme-ape;
+	mro:has_text_value "grape" .
+		
+cco:EnglishMorpheme_home rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_home .
+
+cco:Glyph_Morpheme_home rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_home ;
+	mro:has_part cco:Glyph_EnglishPhoneme_h_Grapheme-h, cco:Glyph_EnglishTrigraphGrapheme-ome;
+	mro:has_text_value "home" .
+		
+cco:EnglishMorpheme_hop rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_hop .
+
+cco:Glyph_Morpheme_hop rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_hop ;
+	mro:has_part cco:Glyph_EnglishPhoneme_h_Grapheme-h, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "hop" .
+		
+cco:EnglishMorpheme_if rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_if .
+
+cco:Glyph_Morpheme_if rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_if ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_f_Grapheme-f;
+	mro:has_text_value "if" .
+		
+cco:EnglishMorpheme_it rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_it .
+
+cco:Glyph_Morpheme_it rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_it ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "it" .
+		
+cco:EnglishMorpheme_jet rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_jet .
+
+cco:Glyph_Morpheme_jet rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_jet ;
+	mro:has_part cco:Glyph_EnglishPhoneme_j_Grapheme-j, cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "jet" .
+		
+cco:EnglishMorpheme_lip rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_lip .
+
+cco:Glyph_Morpheme_lip rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_lip ;
+	mro:has_part cco:Glyph_EnglishPhoneme_l_Grapheme-l, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "lip" .
+		
+cco:EnglishMorpheme_lit rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_lit .
+
+cco:Glyph_Morpheme_lit rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_lit ;
+	mro:has_part cco:Glyph_EnglishPhoneme_l_Grapheme-l, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "lit" .
+		
+cco:EnglishMorpheme_map rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_map .
+
+cco:Glyph_Morpheme_map rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_map ;
+	mro:has_part cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "map" .
+		
+cco:EnglishMorpheme_mat rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_mat .
+
+cco:Glyph_Morpheme_mat rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_mat ;
+	mro:has_part cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "mat" .
+		
+cco:EnglishMorpheme_mop rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_mop .
+
+cco:Glyph_Morpheme_mop rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_mop ;
+	mro:has_part cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "mop" .
+		
+cco:EnglishMorpheme_nap rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_nap .
+
+cco:Glyph_Morpheme_nap rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_nap ;
+	mro:has_part cco:Glyph_EnglishPhoneme_n_Grapheme-n, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "nap" .
+		
+cco:EnglishMorpheme_net rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_net .
+
+cco:Glyph_Morpheme_net rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_net ;
+	mro:has_part cco:Glyph_EnglishPhoneme_n_Grapheme-n, cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "net" .
+		
+cco:EnglishMorpheme_nit rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_nit .
+
+cco:Glyph_Morpheme_nit rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_nit ;
+	mro:has_part cco:Glyph_EnglishPhoneme_n_Grapheme-n, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "nit" .
+		
+cco:EnglishMorpheme_nut rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_nut .
+
+cco:Glyph_Morpheme_nut rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_nut ;
+	mro:has_part cco:Glyph_EnglishPhoneme_n_Grapheme-n, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "nut" .
+		
+cco:EnglishMorpheme_pan rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pan .
+
+cco:Glyph_Morpheme_pan rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pan ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "pan" .
+		
+cco:EnglishMorpheme_pane rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pane .
+
+cco:Glyph_Morpheme_pane rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pane ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishTrigraphGrapheme-ane;
+	mro:has_text_value "pane" .
+		
+cco:EnglishMorpheme_pat rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pat .
+
+cco:Glyph_Morpheme_pat rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pat ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "pat" .
+		
+cco:EnglishMorpheme_pin rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pin .
+
+cco:Glyph_Morpheme_pin rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pin ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "pin" .
+		
+cco:EnglishMorpheme_pit rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pit .
+
+cco:Glyph_Morpheme_pit rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pit ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "pit" .
+		
+cco:EnglishMorpheme_plane rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_plane .
+
+cco:Glyph_Morpheme_plane rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_plane ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-pl, cco:Glyph_EnglishTrigraphGrapheme-ane;
+	mro:has_text_value "plane" .
+		
+cco:EnglishMorpheme_pleat rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pleat .
+
+cco:Glyph_Morpheme_pleat rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pleat ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-pl, cco:Glyph_EnglishTrigraphGrapheme-eat;
+	mro:has_text_value "pleat" .
+		
+cco:EnglishMorpheme_pot rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pot .
+
+cco:Glyph_Morpheme_pot rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pot ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "pot" .
+		
+cco:EnglishMorpheme_pox rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pox .
+
+cco:Glyph_Morpheme_pox rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pox ;
+	mro:has_part cco:Glyph_EnglishPhoneme_p_Grapheme-p, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_z_Grapheme-x;
+	mro:has_text_value "pox" .
+		
+cco:EnglishMorpheme_prIBA rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_price .
+
+cco:Glyph_Morpheme_price rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_prIBA ;
+	mro:has_part cco:Glyph_EnglishTrigraphGrapheme-pr, cco:Glyph_EnglishTrigraphGrapheme-ice;
+	mro:has_text_value "price" .
+		
+cco:EnglishMorpheme_pride rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_pride .
+
+cco:Glyph_Morpheme_pride rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_pride ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-pr, cco:Glyph_EnglishTrigraphGrapheme-ide;
+	mro:has_text_value "pride" .
+		
+cco:EnglishMorpheme_quack rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_quack .
+
+cco:Glyph_Morpheme_quack rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_quack ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-qu, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishDiagraphPhoneme_k_Grapheme-ck;
+	mro:has_text_value "quack" .
+		
+cco:EnglishMorpheme_queen rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_queen .
+
+cco:Glyph_Morpheme_queen rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_queen ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-qu, cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ee, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "queen" .
+		
+cco:EnglishMorpheme_rode rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_rode .
+
+cco:Glyph_Morpheme_rode rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_rode ;
+	mro:has_part cco:Glyph_EnglishPhoneme_r_Grapheme-r, cco:Glyph_EnglishTrigraphGrapheme-ode;
+	mro:has_text_value "rode" .
+		
+cco:EnglishMorpheme_rug rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_rug .
+
+cco:Glyph_Morpheme_rug rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_rug ;
+	mro:has_part cco:Glyph_EnglishPhoneme_r_Grapheme-r, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_g_Grapheme-g;
+	mro:has_text_value "rug" .
+		
+cco:EnglishMorpheme_rut rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_rut .
+
+cco:Glyph_Morpheme_rut rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_rut ;
+	mro:has_part cco:Glyph_EnglishPhoneme_r_Grapheme-r, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "rut" .
+		
+cco:EnglishMorpheme_sheep rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_sheep .
+
+cco:Glyph_Morpheme_sheep rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_sheep ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-sh, cco:Glyph_EnglishTrigraphGrapheme-eep;
+	mro:has_text_value "sheep" .
+		
+cco:EnglishMorpheme_shine rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_shine .
+
+cco:Glyph_Morpheme_shine rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_shine ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-sh, cco:Glyph_EnglishTrigraphGrapheme-ine;
+	mro:has_text_value "shine" .
+		
+cco:EnglishMorpheme_spike rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_spike .
+
+cco:Glyph_Morpheme_spike rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_spike ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-sp, cco:Glyph_EnglishTrigraphGrapheme-ike;
+	mro:has_text_value "spike" .
+		
+cco:EnglishMorpheme_spine rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_spine .
+
+cco:Glyph_Morpheme_spine rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_spine ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-sp, cco:Glyph_EnglishTrigraphGrapheme-ine;
+	mro:has_text_value "spine" .
+		
+cco:EnglishMorpheme_spoke rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_spoke .
+
+cco:Glyph_Morpheme_spoke rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_spoke ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-sp, cco:Glyph_EnglishTrigraphGrapheme-oke;
+	mro:has_text_value "spoke" .
+		
+cco:EnglishMorpheme_square rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_square .
+
+cco:Glyph_Morpheme_square rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_square ;
+	mro:has_part cco:Glyph_EnglishTrigraphGrapheme-squ, cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-are;
+	mro:has_text_value "square" .
+		
+cco:EnglishMorpheme_squeak rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_squeak .
+
+cco:Glyph_Morpheme_squeak rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_squeak ;
+	mro:has_part cco:Glyph_EnglishTrigraphGrapheme-squ, cco:Glyph_EnglishTrigraphGrapheme-eak;
+	mro:has_text_value "squeak" .
+		
+cco:EnglishMorpheme_stale rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_stale .
+
+cco:Glyph_Morpheme_stale rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_stale ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-st, cco:Glyph_EnglishTrigraphGrapheme-ale;
+	mro:has_text_value "stale" .
+		
+cco:EnglishMorpheme_strobe rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_strobe .
+
+cco:Glyph_Morpheme_strobe rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_strobe ;
+	mro:has_part cco:Glyph_EnglishPhonemeGrapheme-str, cco:Glyph_EnglishTrigraphGrapheme-obe;
+	mro:has_text_value "strobe" .
+		
+cco:EnglishMorpheme_sweet rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_sweet .
+
+cco:Glyph_Morpheme_sweet rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_sweet ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-sw, cco:Glyph_EnglishTrigraphGrapheme-eet;
+	mro:has_text_value "sweet" .
+		
+cco:EnglishMorpheme_swipe rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_swipe .
+
+cco:Glyph_Morpheme_swipe rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_swipe ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-sw, cco:Glyph_EnglishTrigraphGrapheme-ipe;
+	mro:has_text_value "swipe" .
+		
+cco:EnglishMorpheme_tan rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_tan .
+
+cco:Glyph_Morpheme_tan rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_tan ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "tan" .
+		
+cco:EnglishMorpheme_tap rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_tap .
+
+cco:Glyph_Morpheme_tap rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_tap ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "tap" .
+		
+cco:EnglishMorpheme_ted rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_ted .
+
+cco:Glyph_Morpheme_ted rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_ted ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishDiagraphPhoneme_d_Grapheme-ed;
+	mro:has_text_value "ted" .
+		
+cco:EnglishMorpheme_ten rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_ten .
+
+cco:Glyph_Morpheme_ten rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_ten ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "ten" .
+		
+cco:EnglishMorpheme_top rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_top .
+
+cco:Glyph_Morpheme_top rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_top ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "top" .
+		
+cco:EnglishMorpheme_tree rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_tree .
+
+cco:Glyph_Morpheme_tree rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_tree ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-tr, cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ee;
+	mro:has_text_value "tree" .
+		
+cco:EnglishMorpheme_tug rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_tug .
+
+cco:Glyph_Morpheme_tug rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_tug ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_g_Grapheme-g;
+	mro:has_text_value "tug" .
+		
+cco:EnglishMorpheme_wed rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_wed .
+
+cco:Glyph_Morpheme_wed rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_wed ;
+	mro:has_part cco:Glyph_EnglishPhoneme_w_Grapheme-w, cco:Glyph_EnglishDiagraphPhoneme_d_Grapheme-ed;
+	mro:has_text_value "wed" .
+		
+cco:EnglishMorpheme_wet rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_wet .
+
+cco:Glyph_Morpheme_wet rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_wet ;
+	mro:has_part cco:Glyph_EnglishPhoneme_w_Grapheme-w, cco:Glyph_EnglishPhoneme_e_Grapheme-e, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "wet" .
+		
+cco:EnglishMorpheme_wheat rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_wheat .
+
+cco:Glyph_Morpheme_wheat rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_wheat ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh, cco:Glyph_EnglishTrigraphGrapheme-eat;
+	mro:has_text_value "wheat" .
+		
+cco:EnglishMorpheme_wheel rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_wheel .
+
+cco:Glyph_Morpheme_wheel rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_wheel ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh, cco:Glyph_EnglishTrigraphGrapheme-eel;
+	mro:has_text_value "wheel" .
+		
+cco:EnglishMorpheme_whine rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_whine .
+
+cco:Glyph_Morpheme_whine rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_whine ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh, cco:Glyph_EnglishTrigraphGrapheme-ine;
+	mro:has_text_value "whine" .
+		
+cco:EnglishMorpheme_write rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_write .
+
+cco:Glyph_Morpheme_write rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_write ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_r_Grapheme-wr, cco:Glyph_EnglishTrigraphGrapheme-ite;
+	mro:has_text_value "write" .
+		
+cco:EnglishMorpheme_zip rdf:type owl:NamedIndividual , cco:Morpheme;
+	mro:is_a_nominal_measurement_of cco:Glyph_Morpheme_zip .
+
+cco:Glyph_Morpheme_zip rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishMorpheme_zip ;
+	mro:has_part cco:Glyph_EnglishPhoneme_z_Grapheme-z, cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "zip" .
+		
+cco:EnglishTrigraphGrapheme-ade-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ade .
+
+cco:Glyph_EnglishTrigraphGrapheme-ade rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ade-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-ad, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ade" .
+			
+cco:EnglishTrigraphPhoneme_ār_Grapheme-air-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-air .
+
+cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-air rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ār_Grapheme-air-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ai, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "air" .
+			
+cco:EnglishTrigraphGrapheme-ake-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ake .
+
+cco:Glyph_EnglishTrigraphGrapheme-ake rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ake-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_k_Grapheme-k, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ake" .
+			
+cco:EnglishTrigraphGrapheme-ale-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ale .
+
+cco:Glyph_EnglishTrigraphGrapheme-ale rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ale-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "ale" .
+			
+cco:EnglishTrigraphGrapheme-ame-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ame .
+
+cco:Glyph_EnglishTrigraphGrapheme-ame rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ame-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ame" .
+			
+cco:EnglishTrigraphGrapheme-ane-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ane .
+
+cco:Glyph_EnglishTrigraphGrapheme-ane rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ane-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-an, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ane" .
+			
+cco:EnglishTrigraphGrapheme-ape-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ape .
+
+cco:Glyph_EnglishTrigraphGrapheme-ape rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ape-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-ap, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ape" .
+			
+cco:EnglishTrigraphPhoneme_ār_Grapheme-are-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-are .
+
+cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-are rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ār_Grapheme-are-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ar_Grapheme-ar, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "are" .
+			
+cco:EnglishTrigraphPhoneme_j_Grapheme-dge-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_j_Grapheme-dge .
+
+cco:Glyph_EnglishTrigraphPhoneme_j_Grapheme-dge rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_j_Grapheme-dge-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_d_Grapheme-d, cco:Glyph_EnglishPhoneme_g_Grapheme-g, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "dge" .
+			
+cco:EnglishTrigraphGrapheme-eak-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-eak .
+
+cco:Glyph_EnglishTrigraphGrapheme-eak rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-eak-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_e_Grapheme-e-IB, cco:Glyph_EnglishPhoneme_a_Grapheme-a, cco:Glyph_EnglishPhoneme_k_Grapheme-k;
+	mro:has_text_value "eak" .
+			
+cco:EnglishTrigraphGrapheme-ean-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ean .
+
+cco:Glyph_EnglishTrigraphGrapheme-ean rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ean-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ea, cco:Glyph_EnglishPhoneme_n_Grapheme-n;
+	mro:has_text_value "ean" .
+			
+cco:EnglishTrigraphGrapheme-eap-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-eap .
+
+cco:Glyph_EnglishTrigraphGrapheme-eap rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-eap-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ea, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "eap" .
+			
+cco:EnglishTrigraphPhoneme_ār_Grapheme-ear-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-ear .
+
+cco:Glyph_EnglishTrigraphPhoneme_ār_Grapheme-ear rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ār_Grapheme-ear-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ea, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "ear" .
+			
+cco:EnglishTrigraphPhoneme_ur_Grapheme-ear-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ur_Grapheme-ear .
+
+cco:Glyph_EnglishTrigraphPhoneme_ur_Grapheme-ear rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ur_Grapheme-ear-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ea, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "ear" .
+			
+cco:EnglishTrigraphGrapheme-eat-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-eat .
+
+cco:Glyph_EnglishTrigraphGrapheme-eat rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-eat-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ea, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "eat" .
+			
+cco:EnglishTrigraphGrapheme-eel-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-eel .
+
+cco:Glyph_EnglishTrigraphGrapheme-eel rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-eel-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ee, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "eel" .
+			
+cco:EnglishTrigraphGrapheme-eep-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-eep .
+
+cco:Glyph_EnglishTrigraphGrapheme-eep rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-eep-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ee, cco:Glyph_EnglishPhoneme_p_Grapheme-p;
+	mro:has_text_value "eep" .
+			
+cco:EnglishTrigraphPhoneme_ir_Grapheme-eer-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ir_Grapheme-eer .
+
+cco:Glyph_EnglishTrigraphPhoneme_ir_Grapheme-eer rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ir_Grapheme-eer-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ee, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "eer" .
+			
+cco:EnglishTrigraphGrapheme-eet-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-eet .
+
+cco:Glyph_EnglishTrigraphGrapheme-eet rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-eet-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ā_Grapheme-ee, cco:Glyph_EnglishPhoneme_t_Grapheme-t;
+	mro:has_text_value "eet" .
+			
+cco:EnglishTrigraphPhoneme_ir_Grapheme-ere-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ir_Grapheme-ere .
+
+cco:Glyph_EnglishTrigraphPhoneme_ir_Grapheme-ere rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ir_Grapheme-ere-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-er, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ere" .
+			
+cco:EnglishTrigraphGrapheme-ice-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ice .
+
+cco:Glyph_EnglishTrigraphGrapheme-ice rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ice-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishDiagraphPhoneme_s_Grapheme-ce;
+	mro:has_text_value "ice" .
+			
+cco:EnglishTrigraphGrapheme-ide-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ide .
+
+cco:Glyph_EnglishTrigraphGrapheme-ide rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ide-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_d_Grapheme-d, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ide" .
+			
+cco:EnglishTrigraphPhoneme_ī_Grapheme-igh-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ī_Grapheme-igh .
+
+cco:Glyph_EnglishTrigraphPhoneme_ī_Grapheme-igh rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ī_Grapheme-igh-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_j_Grapheme-g, cco:Glyph_EnglishPhoneme_h_Grapheme-h;
+	mro:has_text_value "igh" .
+			
+cco:EnglishTrigraphGrapheme-ike-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ike .
+
+cco:Glyph_EnglishTrigraphGrapheme-ike rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ike-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_i_Grapheme-i, cco:Glyph_EnglishPhoneme_k_Grapheme-k, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ike" .
+			
+cco:EnglishTrigraphGrapheme-ine-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ine .
+
+cco:Glyph_EnglishTrigraphGrapheme-ine rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ine-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-in, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ine" .
+			
+cco:EnglishTrigraphGrapheme-ipe-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ipe .
+
+cco:Glyph_EnglishTrigraphGrapheme-ipe rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ipe-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-ip, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ipe" .
+			
+cco:EnglishTrigraphPhoneme_ir_Grapheme-irr-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ir_Grapheme-irr .
+
+cco:Glyph_EnglishTrigraphPhoneme_ir_Grapheme-irr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ir_Grapheme-irr-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_ur_Grapheme-ir, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "irr" .
+			
+cco:EnglishTrigraphGrapheme-ite-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ite .
+
+cco:Glyph_EnglishTrigraphGrapheme-ite rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ite-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-it, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ite" .
+			
+cco:EnglishTrigraphGrapheme-obe-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-obe .
+
+cco:Glyph_EnglishTrigraphGrapheme-obe rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-obe-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_b_Grapheme-b, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "obe" .
+			
+cco:EnglishTrigraphGrapheme-ode-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ode .
+
+cco:Glyph_EnglishTrigraphGrapheme-ode rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ode-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_d_Grapheme-d, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ode" .
+			
+cco:EnglishTrigraphGrapheme-oke-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-oke .
+
+cco:Glyph_EnglishTrigraphGrapheme-oke rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-oke-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_k_Grapheme-k, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "oke" .
+			
+cco:EnglishTrigraphGrapheme-ome-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ome .
+
+cco:Glyph_EnglishTrigraphGrapheme-ome rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ome-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ome" .
+			
+cco:EnglishTrigraphPhoneme_or_Grapheme-oor-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_or_Grapheme-oor .
+
+cco:Glyph_EnglishTrigraphPhoneme_or_Grapheme-oor rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_or_Grapheme-oor-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_oo_Grapheme-oo, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "oor" .
+			
+cco:EnglishTrigraphPhoneme_ow_Grapheme-oow-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ow_Grapheme-oow .
+
+cco:Glyph_EnglishTrigraphPhoneme_ow_Grapheme-oow rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ow_Grapheme-oow-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_oo_Grapheme-oo, cco:Glyph_EnglishPhoneme_w_Grapheme-w;
+	mro:has_text_value "oow" .
+			
+cco:EnglishTrigraphPhoneme_or_Grapheme-ore-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_or_Grapheme-ore .
+
+cco:Glyph_EnglishTrigraphPhoneme_or_Grapheme-ore rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_or_Grapheme-ore-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_or_Grapheme-or, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ore" .
+			
+cco:EnglishTrigraphPhoneme_oo_Grapheme-oul-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_oo_Grapheme-oul .
+
+cco:Glyph_EnglishTrigraphPhoneme_oo_Grapheme-oul rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_oo_Grapheme-oul-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_o_Grapheme-o, cco:Glyph_EnglishPhoneme_oo_Grapheme-u, cco:Glyph_EnglishPhoneme_l_Grapheme-l;
+	mro:has_text_value "oul" .
+			
+cco:EnglishTrigraphPhoneme_k_Grapheme-que-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_k_Grapheme-que .
+
+cco:Glyph_EnglishTrigraphPhoneme_k_Grapheme-que rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_k_Grapheme-que-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-qu, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "que" .
+			
+cco:EnglishTrigraphGrapheme-shr-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-shr .
+
+cco:Glyph_EnglishTrigraphGrapheme-shr rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-shr-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphPhoneme_sh_Grapheme-sh, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "shr" .
+			
+cco:EnglishTrigraphGrapheme-squ-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-squ .
+
+cco:Glyph_EnglishTrigraphGrapheme-squ rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-squ-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishDiagraphGrapheme-qu;
+	mro:has_text_value "squ" .
+			
+cco:EnglishTrigraphGrapheme-str-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-str .
+
+cco:Glyph_EnglishTrigraphGrapheme-str rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-str-IBA ;
+	mro:has_part cco:Glyph_EnglishDiagraphGrapheme-st, cco:Glyph_EnglishPhoneme_r_Grapheme-r;
+	mro:has_text_value "str" .
+			
+cco:EnglishTrigraphPhoneme_ch_Grapheme-tch-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphPhoneme_ch_Grapheme-tch .
+
+cco:Glyph_EnglishTrigraphPhoneme_ch_Grapheme-tch rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphPhoneme_ch_Grapheme-tch-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishDiagraphPhoneme_ch_Grapheme-ch;
+	mro:has_text_value "tch" .
+			
+cco:EnglishTrigraphGrapheme-ule-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ule .
+
+cco:Glyph_EnglishTrigraphGrapheme-ule rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ule-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_l_Grapheme-l, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ule" .
+			
+cco:EnglishTrigraphGrapheme-ume-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ume .
+
+cco:Glyph_EnglishTrigraphGrapheme-ume rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ume-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_m_Grapheme-m, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ume" .
+			
+cco:EnglishTrigraphGrapheme-une-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-une .
+
+cco:Glyph_EnglishTrigraphGrapheme-une rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-une-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_n_Grapheme-n, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "une" .
+			
+cco:EnglishTrigraphGrapheme-use-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-use .
+
+cco:Glyph_EnglishTrigraphGrapheme-use rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-use-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_s_Grapheme-s, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "use" .
+			
+cco:EnglishTrigraphGrapheme-ute-IBA rdf:type owl:NamedIndividual , cco:Trigraph;
+	mro:is_a_nominal_measurement_of cco:Glyph_EnglishTrigraphGrapheme-ute .
+
+cco:Glyph_EnglishTrigraphGrapheme-ute rdf:type owl:NamedIndividual , cco:Glyph;
+	mro:is_measured_by_nominal  cco:EnglishTrigraphGrapheme-ute-IBA ;
+	mro:has_part cco:Glyph_EnglishPhoneme_u_Grapheme-u, cco:Glyph_EnglishPhoneme_t_Grapheme-t, cco:Glyph_EnglishPhoneme_e_Grapheme-e;
+	mro:has_text_value "ute" .
+			
