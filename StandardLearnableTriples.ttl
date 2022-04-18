@@ -594,27 +594,27 @@ cco:Phone_ū_Sound rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_a_ICE
 cco:EnglishPhoneme_a_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1615 ;
                 mro:represented_by  cco:EnglishPhoneme_a_Grapheme-a-IBA ,
                                     cco:EnglishDiagraphPhoneme_o_Grapheme-au-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ar_ICE
 cco:EnglishPhoneme_ar_ICE rdf:type owl:NamedIndividual ,
-                                cco:EnglishLanguageEnglishPhoneme ;
+                                cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1769 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_ar_Grapheme-ar-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_b_ICE
 cco:EnglishPhoneme_b_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1340 ;
                 mro:represented_by  cco:EnglishPhoneme_b_Grapheme-b-IBA ,
                                     cco:EnglishDiagraphPhoneme_b_Grapheme-bb-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ch_ICE
 cco:EnglishPhoneme_ch_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1582 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_ch_Grapheme-ch-IBA,
                                     cco:EnglishTrigraphPhoneme_ch_Grapheme-tch-IBA .
@@ -622,7 +622,7 @@ cco:EnglishPhoneme_ch_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_d_ICE
 cco:EnglishPhoneme_d_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1351 ;
                 mro:represented_by  cco:EnglishPhoneme_d_Grapheme-d-IBA ,
                                     cco:EnglishDiagraphPhoneme_d_Grapheme-dd-IBA ,
@@ -630,7 +630,7 @@ cco:EnglishPhoneme_d_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_e_ICE
 cco:EnglishPhoneme_e_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1626 ;
                 mro:represented_by  cco:EnglishPhoneme_e_Grapheme-e-IBA ,
                                     cco:EnglishDiagraphPhoneme_e_Grapheme-ea-IBA .
@@ -638,33 +638,33 @@ cco:EnglishPhoneme_e_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_f_ICE
 cco:EnglishPhoneme_f_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1362 ;
                 mro:represented_by  cco:EnglishPhoneme_f_Grapheme-f-IBA ,
                                     cco:EnglishDiagraphPhoneme_f_Grapheme-ph-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_g_ICE
 cco:EnglishPhoneme_g_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1373 ;
                 mro:represented_by  cco:EnglishPhoneme_g_Grapheme-g-IBA ,
                                     cco:EnglishDiagraphPhoneme_g_Grapheme-gg-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_h_ICE
 cco:EnglishPhoneme_h_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1384 ;
                 mro:represented_by  cco:EnglishPhoneme_h_Grapheme-h-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_i_ICE
 cco:EnglishPhoneme_i_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1637 ;
                 mro:represented_by  cco:EnglishPhoneme_i_Grapheme-i-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ir_ICE
 cco:EnglishPhoneme_ir_ICE rdf:type owl:NamedIndividual ,
-                                cco:EnglishLanguageEnglishPhoneme ;
+                                cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1791 ;
                 mro:represented_by  cco:EnglishTrigraphPhoneme_ir_Grapheme-eer-IBA ,
                                     cco:EnglishTrigraphPhoneme_ir_Grapheme-ere-IBA,
@@ -672,7 +672,7 @@ cco:EnglishPhoneme_ir_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_j_ICE
 cco:EnglishPhoneme_j_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1395 ;
                 mro:represented_by  cco:EnglishTrigraphPhoneme_j_Grapheme-dge-IBA ,
                                     cco:EnglishPhoneme_j_Grapheme-g-IBA ,
@@ -681,7 +681,7 @@ cco:EnglishPhoneme_j_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_k_ICE
 cco:EnglishPhoneme_k_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1406 ;
                 mro:represented_by  cco:EnglishPhoneme_k_Grapheme-c-IBA ,
                                     cco:EnglishDiagraphPhoneme_k_Grapheme-cc-IBA ,
@@ -692,14 +692,14 @@ cco:EnglishPhoneme_k_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_l_ICE
 cco:EnglishPhoneme_l_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1417 ;
                 mro:represented_by  cco:EnglishPhoneme_l_Grapheme-l-IBA ,
                                     cco:EnglishDiagraphPhoneme_l_Grapheme-ll-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_m_ICE
 cco:EnglishPhoneme_m_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1428 ;
                 mro:represented_by  cco:EnglishPhoneme_m_Grapheme-m-IBA ,
                                     cco:EnglishDiagraphPhoneme_m_Grapheme-mb-IBA ,
@@ -707,7 +707,7 @@ cco:EnglishPhoneme_m_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_n_ICE
 cco:EnglishPhoneme_n_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1439 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_n_Grapheme-gn-IBA ,
                                     cco:EnglishDiagraphPhoneme_n_Grapheme-kn-IBA ,
@@ -716,7 +716,7 @@ cco:EnglishPhoneme_n_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ng_ICE
 cco:EnglishPhoneme_ng_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1560 ;
                 mro:represented_by  cco:EnglishPhoneme_ng_Grapheme-n-IBA ,
                                     cco:EnglishDiagraphPhoneme_ng_Grapheme-ng-IBA .
@@ -724,7 +724,7 @@ cco:EnglishPhoneme_ng_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_o_ICE
 cco:EnglishPhoneme_o_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1648 ;
                 mro:represented_by  cco:EnglishPhoneme_o_Grapheme-a-IBA ,
                                     cco:EnglishDiagraphPhoneme_o_Grapheme-au-IBA ,
@@ -734,7 +734,7 @@ cco:EnglishPhoneme_o_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_oo_ICE
 cco:EnglishPhoneme_oo_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1725 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_oo_Grapheme-oo-IBA ,
                                     cco:EnglishTrigraphPhoneme_oo_Grapheme-oul-IBA ,
@@ -742,7 +742,7 @@ cco:EnglishPhoneme_oo_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_or_ICE
 cco:EnglishPhoneme_or_ICE rdf:type owl:NamedIndividual ,
-                                cco:EnglishLanguageEnglishPhoneme ;
+                                cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1802 ;
                 mro:represented_by  cco:EnglishTrigraphPhoneme_or_Grapheme-oor-IBA ,
                                     cco:EnglishDiagraphPhoneme_or_Grapheme-or-IBA ,
@@ -750,7 +750,7 @@ cco:EnglishPhoneme_or_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ow_ICE
 cco:EnglishPhoneme_ow_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1747 ;
                 mro:represented_by  cco:EnglishTrigraphPhoneme_ow_Grapheme-oow-IBA ,
                                     cco:EnglishDiagraphPhoneme_ow_Grapheme-ou-IBA ,
@@ -758,14 +758,14 @@ cco:EnglishPhoneme_ow_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_oy_ICE
 cco:EnglishPhoneme_oy_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1758 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_oy_Grapheme-oi-IBA ,
                                     cco:EnglishDiagraphPhoneme_oy_Grapheme-oy-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_p_ICE
 cco:EnglishPhoneme_p_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1450 ;
                 mro:represented_by  cco:EnglishPhoneme_p_Grapheme-p-IBA ,
                                     cco:EnglishDiagraphPhoneme_p_Grapheme-pp-IBA.
@@ -773,7 +773,7 @@ cco:EnglishPhoneme_p_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_r_ICE
 cco:EnglishPhoneme_r_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1461 ;
                 mro:represented_by  cco:EnglishPhoneme_r_Grapheme-r-IBA ,
                                     cco:EnglishDiagraphPhoneme_r_Grapheme-rr-IBA ,
@@ -781,7 +781,7 @@ cco:EnglishPhoneme_r_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_s_ICE
 cco:EnglishPhoneme_s_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1472 ;
                 mro:represented_by  cco:EnglishPhoneme_s_Grapheme-c-IBA ,
                                     cco:EnglishDiagraphPhoneme_s_Grapheme-ce-IBA ,
@@ -792,7 +792,7 @@ cco:EnglishPhoneme_s_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_sh_ICE
 cco:EnglishPhoneme_sh_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1571 ;
                 mro:represented_by  cco:nglishDiagraphPhoneme_sh_Grapheme-ch-IBA ,
                                     cco:EnglishDiagraphPhoneme_sh_Grapheme-ci-IBA ,
@@ -802,7 +802,7 @@ cco:EnglishPhoneme_sh_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_t_ICE
 cco:EnglishPhoneme_t_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1483 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_t_Grapheme-ed-IBA ,
                                     cco:EnglishPhoneme_t_Grapheme-t-IBA ,
@@ -810,26 +810,26 @@ cco:EnglishPhoneme_t_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_th_not-voiced_ICE
 cco:EnglishPhoneme_th_not-voiced_ICE rdf:type owl:NamedIndividual ,
-                                        cco:EnglishLanguageEnglishPhoneme ;
+                                        cco:EnglishLanguagePhoneme ;
                                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1538 ;
                                 mro:represented_by  cco:EnglishDiagraphPhoneme_th_not-voice_Grapheme-th-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_th_voiced_ICE
 cco:EnglishPhoneme_th_voiced_ICE rdf:type owl:NamedIndividual ,
-                                cco:EnglishLanguageEnglishPhoneme ;
+                                cco:EnglishLanguagePhoneme ;
                         mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1549 ;
                         mro:represented_by  cco:EnglishDiagraphPhoneme_th_voiced_Grapheme-th-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_u_ICE
 cco:EnglishPhoneme_u_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1659 ;
                 mro:represented_by  cco:EnglishPhoneme_u_Grapheme-o-IBA ,
                                     cco:EnglishPhoneme_u_Grapheme-u-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ur_ICE
 cco:EnglishPhoneme_ur_ICE rdf:type owl:NamedIndividual ,
-                                cco:EnglishLanguageEnglishPhoneme ;
+                                cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1813 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_ur_Grapheme-ar-IBA ,
                                     cco:EnglishTrigraphPhoneme_ur_Grapheme-ear-IBA,
@@ -840,27 +840,27 @@ cco:EnglishPhoneme_ur_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_v_ICE
 cco:EnglishPhoneme_v_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1494 ;
                 mro:represented_by  cco:EnglishPhoneme_v_Grapheme-v-IBA ,
                                     cco:EnglishDiagraphPhoneme_v_Grapheme-ve-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_w_ICE
 cco:EnglishPhoneme_w_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1505 ;
                 mro:represented_by  cco:EnglishPhoneme_w_Grapheme-w-IBA .
 
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_wh_with-breath_ICE
 cco:EnglishPhoneme_wh_with-breath_ICE rdf:type owl:NamedIndividual ,
-                                        cco:EnglishLanguageEnglishPhoneme ;
+                                        cco:EnglishLanguagePhoneme ;
                                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1604 ;
                                 mro:represented_by  cco:EnglishDiagraphPhoneme_wh_with-breath_Grapheme-wh-IBA .
                             
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_y_ICE
 cco:EnglishPhoneme_y_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1516 ;
                 mro:represented_by  cco:EnglishPhoneme_y_Grapheme-i-IBA ,
                                     cco:EnglishPhoneme_y_Grapheme-y-IBA .
@@ -869,7 +869,7 @@ cco:EnglishPhoneme_y_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_z_ICE
 cco:EnglishPhoneme_z_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1527 ;
                 mro:represented_by  cco:EnglishPhoneme_z_Grapheme-s-IBA ,
                                         cco:EnglishDiagraphPhoneme_z_Grapheme-se-IBA ,
@@ -881,14 +881,14 @@ cco:EnglishPhoneme_z_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_zh_ICE
 cco:EnglishPhoneme_zh_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1593 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_zh_Grapheme-ge-IBA ,
                                     cco:EnglishPhoneme_zh_Grapheme-s-IBA .
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ā_ICE
 cco:EnglishPhoneme_ā_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1670 ;
                 mro:represented_by  cco:EnglishPhoneme_ā_Grapheme-a-IBA ,
                                         cco:EnglishPhoneme_ā_Grapheme-a_e-IBA ,
@@ -897,9 +897,9 @@ cco:EnglishPhoneme_ā_ICE rdf:type owl:NamedIndividual ,
                                         cco:EnglishDiagraphPhoneme_ā_Grapheme-ei-IBA ,
                                         cco:EnglishDiagraphPhoneme_ā_Grapheme-ey-IBA .
 
-# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ār__ICE
-cco:EnglishPhoneme_ār__ICE rdf:type owl:NamedIndividual ,
-                                cco:EnglishLanguageEnglishPhoneme ;
+# http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ār_ICE
+cco:EnglishPhoneme_ār_ICE rdf:type owl:NamedIndividual ,
+                                cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1780 ;
                 mro:represented_by  cco:EnglishTrigraphPhoneme_ār_Grapheme-air-IBA ,
                                     cco:EnglishTrigraphPhoneme_ār_Grapheme-are-IBA ,
@@ -907,7 +907,7 @@ cco:EnglishPhoneme_ār__ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ē_ICE
 cco:EnglishPhoneme_ē_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1681 ;
                 mro:represented_by  cco:EnglishPhoneme_ē_Grapheme-e-IBA ,
                                     cco:EnglishPhoneme_ē_Grapheme-e_e-IBA ,
@@ -919,7 +919,7 @@ cco:EnglishPhoneme_ē_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ī_ICE
 cco:EnglishPhoneme_ī_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1692 ;
                 mro:represented_by  cco:EnglishPhoneme_ī_Grapheme-i-IBA ,
                                     cco:EnglishPhoneme_ī_Grapheme-i_e-IBA ,
@@ -929,7 +929,7 @@ cco:EnglishPhoneme_ī_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ō_ICE
 cco:EnglishPhoneme_ō_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1703 ;
                 mro:represented_by  cco:EnglishPhoneme_ō_Grapheme-o-IBA ,
                                     cco:EnglishPhoneme_ō_Grapheme-o_e-IBA,
@@ -939,7 +939,7 @@ cco:EnglishPhoneme_ō_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ōō_ICE
 cco:EnglishPhoneme_ōō_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1736 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_ōō_Grapheme-oo-IBA ,
                                     cco:EnglishPhoneme_ōō_Grapheme-u-IBA ,
@@ -947,7 +947,7 @@ cco:EnglishPhoneme_ōō_ICE rdf:type owl:NamedIndividual ,
 
 # http://www.ontologyrepository.com/CommonCoreOntologies/EnglishPhoneme_ū_ICE
 cco:EnglishPhoneme_ū_ICE rdf:type owl:NamedIndividual ,
-                        cco:EnglishLanguageEnglishPhoneme ;
+                        cco:EnglishLanguagePhoneme ;
                 mro:designated_by cco:IPAEnglishPhonemeDesignator1_N1714 ;
                 mro:represented_by  cco:EnglishDiagraphPhoneme_ū_Grapheme-ew-IBA ,
                                     cco:EnglishPhoneme_ū_Grapheme-u-IBA ,
